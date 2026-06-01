@@ -1,0 +1,53 @@
+# -----------------------------------------------------------------------------
+# AI-Augmented Bioinformatics Practice Model
+# -----------------------------------------------------------------------------
+site_name: AI-Augmented Bioinformatics Practice Model
+repo_url: https://github.com/YOUR-USERNAME/ai-bioinformatics-practice-model
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: timeago
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - attr_list
+  - md_in_html
+
+# NAVIGATION: Add your generated filenames here exactly as they are named in your docs/ folder
+nav:
+  - Home: index.md
+  - Practice Model:
+      - Framing the Problem: framing_the_biological_problem.md
+      - Actionable Tasks: deconstructing_the_solution.md
+      - Autonomous Workflows: orchestrating_autonomous_ai.md
+      - Evaluation & Audit: evaluating_and_auditing.md
+  - Community:
+      - How to Contribute: contributing.md
+      - Contributors: contributors.md
+      - Code of Conduct: code_of_conduct.md
