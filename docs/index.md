@@ -1,9 +1,3 @@
----
-hide:
-  - navigation
-  - toc
----
-
 # AI-Augmented Bioinformatics Practice Model
 
 Welcome to the AI-Augmented Bioinformatics Practice Model. This repository serves as a community-driven, open-source resource for defining professional standards, ethical boundaries, and best practices for the integration of AI agents in the professional practice of bioinformatics and computational life sciences.

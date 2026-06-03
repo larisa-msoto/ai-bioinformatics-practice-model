@@ -1,14 +1,6 @@
----
-hide:
-  - navigation
-  - toc
----
+# Diligence
 
-# Diligence - Practice Model
-
-# Ensuring pipeline governance and regulatory compliance.
-
-## Competencies by Area
+## Ensuring pipeline governance and regulatory compliance.
 
 * ISCB Professional Conduct
     * [ISCB J3: Comply with professional, ethical, legal, and social standards.](https://competency.ebi.ac.uk/framework/iscb/3.0/competencies/J3)
@@ -22,11 +14,7 @@ hide:
 * Ethical risk mitigation
     * Formulate institutional/team risk guardrails to prevent algorithmic discrimination, dual-use biological research hazards, or intellectual property infringements.
 
----
-
-# Securing digital asset longevity and sustainability
-
-## Competencies by Area
+## Securing digital asset longevity and sustainability
 
 * ISCB Data Science Domain
     * [ISCB E3: Manage own and others' data according to community standards (FAIR principles).](https://competency.ebi.ac.uk/framework/iscb/3.0/competencies/E3)
@@ -37,9 +25,7 @@ hide:
 
 ---
 
-# Countering mental dependency while preserving technical mastery
-
-## Competencies by Area
+## Countering mental dependency while preserving technical mastery
 
 * ACTIVE: Iterative skill development
     * Countering "cognitive offloading"—the habit of delegating reasoning to tools—by intentionally practicing the "cognitive musculature" of manual coding and statistical reasoning .
@@ -49,9 +35,7 @@ hide:
 
 ---
 
-# Nurtirung a supportive and responsible scientific community
-
-## Competencies by Area
+## Nurturing a supportive and responsible scientific community
 
 * ISCB Professional Conduct
     * [ISCB L3: Work effectively in teams to accomplish common goals.](https://competency.ebi.ac.uk/framework/iscb/3.0/competencies/L3)
@@ -64,8 +48,6 @@ hide:
 
 # Guiding institutional strategy and cross-sector diplomacy
 
-## Competencies by Area
-
 * Visionary stewardship
     * Design long-term technical roadmaps, governance models, and sustainability plans to secure the permanent operational longevity of bioinformatics initiatives.
 
@@ -74,9 +56,7 @@ hide:
 
 ---
 
-# Elevating workforce capacity and educational legacy
-
-## Competencies by Area
+## Elevating workforce capacity and educational legacy
 
 * Generational mentorship
     * Develop early-career talent by actively mentoring them to leverage generative AI systems appropriately, critically, and responsibly.

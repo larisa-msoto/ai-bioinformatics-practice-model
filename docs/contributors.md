@@ -1,9 +1,3 @@
----
-hide:
-  - navigation
-  - toc
----
-
 # Contributors
 
 This project is made possible by the time and expertise of the following community members. Thank you!

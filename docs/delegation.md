@@ -1,14 +1,6 @@
----
-hide:
-  - navigation
-  - toc
----
+# Delegation
 
-# Delegation - Practice Model
-
-# Framing the biological problem and formulating the solution roadmap
-
-## Competencies by Area
+## Framing the biological problem and formulating the solution roadmap
 
 * Hypothesis generation
     * Leverage domain expertise to formulate novel biological hypotheses and questions in research areas where existing data or AI training models are limited
@@ -24,9 +16,7 @@ hide:
 
 ---
 
-# Deconstructing the solution roadmap into actionable tasks
-
-## Competencies by Area
+## Deconstructing the solution roadmap into actionable tasks
 
 * Modular task decomposition
     * Break down a complex bioinformatics problem into clear, individual tasks that can be performed independently.
@@ -43,9 +33,7 @@ hide:
 
 ---
 
-# Orchestrating autonomous AI workflows to execute tasks ar scale
-
-## Competencies by Area
+## Orchestrating autonomous AI workflows to execute tasks ar scale
 
 * Multi-agent architecture design
     * Architect end-to-end automated workflows that leverage chained AI agents to execute complex, multi-stage bioinformatics analyses.

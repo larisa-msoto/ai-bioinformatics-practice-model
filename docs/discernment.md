@@ -1,14 +1,6 @@
----
-hide:
-  - navigation
-  - toc
----
+# Discernment
 
-# Discernment - Practice Model
-
-# Evaluating the biological plausibility of AI outputs.
-
-## Competencies by Area
+## Evaluating the biological plausibility of AI outputs.
 
 * Biological integrity verification
     * Verify the biological plausibility of AI-generated results against established mechanistic principles in your specific life science domain, and trusted reference sources or databases.
@@ -24,9 +16,7 @@ hide:
 
 ---
 
-# Benchmarking AI results against standard baselines
-
-## Competencies by Area
+## Benchmarking AI results against standard baselines
 
 * Algorithmic bias detection
     * Screen AI outputs for population skews, data imbalances, or training data biases across diverse experimental groups.
@@ -39,9 +29,7 @@ hide:
 
 ---
 
-# Detecting computational artifacts and hallucinations
-
-## Competencies by Area
+## Detecting computational artifacts and hallucinations
 
 * Hallucination detection
     * Identify fabricated data, non-existent literature citations, or flawed logical loops within AI text and code outputs.

@@ -1,14 +1,6 @@
----
-hide:
-  - navigation
-  - toc
----
+# Description
 
-# Description - Practice Model
-
-# Translating biological knowledge into precise AI instructions
-
-## Competencies by Area
+## Translating biological knowledge into precise AI instructions
 
 * ISCB Bioscience Domain
     * [ISCB A3: Work at depth in at least one technical area aligned with the life sciences.](https://competency.ebi.ac.uk/framework/iscb/3.0/competencies/A3)
@@ -24,9 +16,7 @@ hide:
 
 ---
 
-# Structuring raw biological data for AI model context
-
-## Competencies by Area
+## Structuring raw biological data for AI model context
 
 * Metadata standardization
     * Apply highly descriptive system instructions that translate experimental designs and dataset annotations into clear parameters for AI ingestion.
@@ -36,9 +26,7 @@ hide:
 
 ---
 
-# Documenting and tracking AI interactions and software parameters for reproducibility
-
-## Competencies by Area
+## Documenting and tracking AI interactions and software parameters for reproducibility
 
 * Provenance logging
     * Record every prompt text, system configuration, model version, and seed value used to achieve a computational result.
