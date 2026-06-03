@@ -34,14 +34,13 @@ theme:
   name: material
   locale: en
   custom_dir: overrides
-  include_sidebar: true
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - toc.follow
-    - toc.integrate
+    #- toc.integrate
     - search.suggest
     - search.highlight
     - content.action.edit
@@ -54,10 +53,6 @@ theme:
     - scheme: slate
       primary: indigo
       accent: deep purple
-
-  markdown_extensions:
-  - toc:
-      permalink: true
 
 plugins:
   - search
