@@ -6,13 +6,13 @@ hide:
 # Delegation
 
 !!! note ""
-    According to [Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) Delegation means _"setting goals and deciding whether, when, and how to engage with AI"_.
+    According to [Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) Delegation means _"Setting goals and deciding whether, when, and how to engage with AI"_.
 
-In Bioinformatics, delegation requires a deep understanding of the biological context, breaking complex problems into small independent tasks, determining when it's appropriate to use generative AI, and choosing the most appropriate AI or non-AI tool for each task. 
+In Bioinformatics, delegation requires a deep understanding of the biological context, breaking complex problems into small independent tasks, determining for which tasks it's appropriate to use generative AI, choosing the most appropriate AI-based or non-AI-based tool for each task, and knowing how to implement agentic workflows following best practices.  
 
 **Table of Contents**
 
-Delegation in Bioinformatics must be applied across three professional practice areas: 
+Description in Bioinformatics applies to the following professional practice areas: 
 
 [TOC]
 
@@ -42,12 +42,12 @@ Delegation in Bioinformatics must be applied across three professional practice 
 * Technical acceptance criteria definition
     * Define the exact expected outputs, data formats, and quality benchmarks for each task before starting execution.
 
-* ACTIVE - Awareness and Task-AI Alignment
+* Awareness and Task-AI Alignment (ACTIVE Framework)
     * Critically assessing the complexity of a task to determine if AI integration is appropriate or if it risks bypassing essential learning.
 
-* ISCB Data Science Domain
-    * [ISCB D3: Use data science methods suitable for the size and complexity of the data.](https://competency.ebi.ac.uk/framework/iscb/3.0/competencies/D3)
-    * [ISCB F3: Make appropriate use of bioinformatics tools and resources.](https://competency.ebi.ac.uk/framework/iscb/3.0/competencies/F3)
+* Data Science Domain Knowlegde (ISCB Competency Framework)
+    * [ISCB D3: Use data science methods suitable for the size and complexity of the data.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7940)
+    * [ISCB F3: Make appropriate use of bioinformatics tools and resources.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7942)
 
 ---
 
