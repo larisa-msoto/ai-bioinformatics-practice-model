@@ -72,6 +72,8 @@ plugins:
 markdown_extensions:
   - toc:
       permalink: true
+      baselevel: 1
+      toc_depth: 3
   - admonition
   - pymdownx.details
   - pymdownx.superfences
