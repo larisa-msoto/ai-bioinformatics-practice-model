@@ -1,21 +1,52 @@
 # -----------------------------------------------------------------------------
 # AI-Augmented Bioinformatics Practice Model
 # -----------------------------------------------------------------------------
-site_name: 4D-Bio: A professional practice model for AI-Augmented Bioinformatics
+site_name: AI-Augmented Bioinformatics Practice Model
 repo_url: https://github.com/larisa-msoto/ai-bioinformatics-practice-model
-edit_uri: edit/main/docs/
+edit_uri: 'blob/main/docs/'
+docs_dir: docs/
+site_description: "A professional practice model for AI-Augmented Bioinformatics based on Anthropic's 4D Framework"
+site_author: Larisa M. Soto
+
+nav:
+  - Home: index.md
+  - Practice Model:
+      - Delegation: delegation.md
+      - Description: description.md
+      - Discernment: discernment.md
+      - Diligence: diligence.md
+  - Community:
+      - How to Contribute: contributing.md
+      - Contributors: contributors.md
+      - Code of Conduct: code_of_conduct.md
+
+validation:
+  omitted_files: warn
+  absolute_links: warn  
+  unrecognized_links: warn
+  anchors: warn  # New in MkDocs 1.6
+  links:
+    absolute_links: relative_to_docs
+    anchors: warn
+    unrecognized_links: warn
 
 theme:
   name: material
+  locale: en
   custom_dir: overrides
+  include_sidebar: true
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
+    - toc.follow
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.action.edit
     - content.code.copy
+
   palette:
     - scheme: default
       primary: indigo
@@ -23,6 +54,10 @@ theme:
     - scheme: slate
       primary: indigo
       accent: deep purple
+
+  markdown_extensions:
+  - toc:
+      permalink: true
 
 plugins:
   - search
@@ -39,15 +74,4 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-# NAVIGATION: Add your generated filenames here exactly as they are named in your docs/ folder
-nav:
-  - Home: index.md
-  - Practice Model:
-      - Delegation: delegation.md
-      - Description: description.md
-      - Discernment: discernment.md
-      - Diligence: diligence.md
-  - Community:
-      - How to Contribute: contributing.md
-      - Contributors: contributors.md
-      - Code of Conduct: code_of_conduct.md
+

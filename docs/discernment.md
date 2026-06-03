@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Discernment - Practice Model
 
 # Evaluating the biological plausibility of AI outputs.

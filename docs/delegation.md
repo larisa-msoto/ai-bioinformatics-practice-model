@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Delegation - Practice Model
 
 # Framing the biological problem and formulating the solution roadmap

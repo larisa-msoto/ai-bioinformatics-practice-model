@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Description - Practice Model
 
 # Translating biological knowledge into precise AI instructions

@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Diligence - Practice Model
 
 # Ensuring pipeline governance and regulatory compliance.

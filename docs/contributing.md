@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Contributing to this Project
 
 We love contributions! Whether you have a small correction or a massive new idea, here is how you can help:
