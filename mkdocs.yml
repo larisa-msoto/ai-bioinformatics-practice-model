@@ -1,8 +1,8 @@
 # -----------------------------------------------------------------------------
 # AI-Augmented Bioinformatics Practice Model
 # -----------------------------------------------------------------------------
-site_name: AI-Augmented Bioinformatics Practice Model
-repo_url: https://github.com/YOUR-USERNAME/ai-bioinformatics-practice-model
+site_name: 4D-Bio: A professional practice model for AI-Augmented Bioinformatics
+repo_url: https://github.com/larisa-msoto/ai-bioinformatics-practice-model
 edit_uri: edit/main/docs/
 
 theme:
@@ -43,10 +43,10 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Practice Model:
-      - Framing the Problem: framing_the_biological_problem.md
-      - Actionable Tasks: deconstructing_the_solution.md
-      - Autonomous Workflows: orchestrating_autonomous_ai.md
-      - Evaluation & Audit: evaluating_and_auditing.md
+      - Delegation: delegation.md
+      - Description: description.md
+      - Discernment: discernment.md
+      - Diligence: diligence.md
   - Community:
       - How to Contribute: contributing.md
       - Contributors: contributors.md
