@@ -9,7 +9,17 @@ site_description: "A professional practice model for AI-Augmented Bioinformatics
 site_author: Larisa M. Soto
 
 nav:
-  - Home: index.md
+  - Home: 
+    - About: index.md
+    - Community: 
+      - How to Contribute: contributing.md
+      - Contributors: contributors.md
+      - Code of Conduct: code_of_conduct.md
+    - Practice Model:
+      - Delegation: delegation.md
+      - Description: description.md
+      - Discernment: discernment.md
+      - Diligence: diligence.md  
   - Practice Model:
       - Delegation: delegation.md
       - Description: description.md
