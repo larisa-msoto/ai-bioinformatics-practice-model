@@ -20,11 +20,13 @@ nav:
       - Description: description.md
       - Discernment: discernment.md
       - Diligence: diligence.md  
+      - References: references.md
   - Practice Model:
       - Delegation: delegation.md
       - Description: description.md
       - Discernment: discernment.md
       - Diligence: diligence.md
+      - References: references.md
   - Community:
       - How to Contribute: contributing.md
       - Contributors: contributors.md
