@@ -26,7 +26,7 @@ This site is a living document. You can navigate through the practice model usin
 ## How to Contribute
 
 - **See a typo?** Click the pencil icon in the top-right corner of any page to propose a fix.   
-- **Have an idea?** Open a new discussion in our [Discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions).   
+- **Have an idea?** Open a new discussion in our [Discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions) or in the discussion section of each page.   
 - **Want to add to the model?** Follow our [Contributing Guide](contributing.md). 
 - **Something really resonates?** Let the community know in the [Discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions).   
 - **Want to join the moderators/mainteiners team?** Keep an eye out for the application form!
