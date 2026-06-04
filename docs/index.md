@@ -21,7 +21,7 @@ Academic research has historically left out many of us, and boy are they missing
 None of that can happen without a framework that formally defines bioinformatics as a profession. It's been more than 20 years since the sequencing of the human genome. What are we waiting for? 
 
 ## How to use this site
-This site is a living document. You can navigate through the practice model using the sidebar. If you have questions or ideas, we invite you to participate in our community discussions at the bottom of each page or contribute directly to this text by clicking the edit button at the top right.
+This site is a living document. You can navigate through the practice model using the sidebar. If you have questions or ideas, we invite you to participate in our community discussions at the bottom of each page or contribute directly to this text by clicking the edit button at the top right. 
 
 ## How to Contribute
 
@@ -29,3 +29,4 @@ This site is a living document. You can navigate through the practice model usin
 - **Have an idea?** Open a new discussion in our [Discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions).   
 - **Want to add to the model?** Follow our [Contributing Guide](contributing.md). 
 - **Something really resonates?** Let the community know in the [Discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions).   
+- **Want to join the moderators/mainteiners team?** Keep an eye out for the application form!
