@@ -2,7 +2,7 @@
 
 Welcome to 4D-Bio! 
 
-4D-Bio translates [Anthropic’s 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) —– Delegation, Description, Discernment, and Diligence –– into the professional practice of bioinformatics and computational biology. This open-source repository serves as a community hub to drive the responsible integration of generative AI in our field.
+4D-Bio translates [Anthropic’s 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) --- Delegation, Description, Discernment, and Diligence --- into the professional practice of bioinformatics and computational biology. This open-source repository serves as a community hub to drive the responsible integration of generative AI in our field.
 
 AI cannot replace human intellect, and it should never replace bioinformaticians. This is a call to the community of bioinformatics professionals to come together to drive the transformation of our profession. As domain experts, it is on us to determine how generative AI gets incorporated into our daily work. And it is also on us to show decision-makers why our expertise remains at the cornerstone of every major investment in life and health sciences.
 
