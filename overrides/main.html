@@ -3,20 +3,58 @@
 {% block content %}
   {{ super() }}
   
-  <h2 id="__comments">Community Discussion</h2>
-  <script src="https://giscus.app/client.js"
-        data-repo="larisa-msoto/ai-bioinformatics-practice-model"
-        data-repo-id="R_kgDOSuDUPQ"
-        data-category="Model Feedback"
-        data-category-id="DIC_kwDOSuDUPc4C-SXb"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-  </script>
+<h2 id="__comments">Community Discussion</h2>
+
+<!-- This container gives the dynamic script a specific place to load the discussion box -->
+<div id="giscus-container"></div>
+
+<script>
+  function loadGiscus() {
+    // 1. Determine the theme based on the current Material for MkDocs color palette
+    var currentPalette = document.body.getAttribute("data-md-color-scheme");
+    var giscusTheme = (currentPalette === "slate") ? "dark_slate" : "light_slate";
+
+    // 2. Clear out any existing giscus frame (important if you switch themes mid-session)
+    var container = document.getElementById("giscus-container");
+    container.innerHTML = "";
+
+    // 3. Create the script element with your specific repository credentials
+    var script = document.createElement("script");
+    script.setAttribute("src", "https://giscus.app/client.js");
+    script.setAttribute("data-repo", "larisa-msoto/ai-bioinformatics-practice-model");
+    script.setAttribute("data-repo-id", "R_kgDOSuDUPQ");
+    script.setAttribute("data-category", "Model Feedback");
+    script.setAttribute("data-category-id", "DIC_kwDOSuDUPc4C-SXb");
+    script.setAttribute("data-mapping", "pathname");
+    script.setAttribute("data-strict", "0");
+    script.setAttribute("data-reactions-enabled", "1");
+    script.setAttribute("data-emit-metadata", "0");
+    script.setAttribute("data-input-position", "bottom");
+    script.setAttribute("data-lang", "en");
+    script.setAttribute("crossorigin", "anonymous");
+    script.async = true;
+
+    // Set the dynamic theme
+    script.setAttribute("data-theme", giscusTheme);
+
+    // 4. Inject the script into your container layout
+    container.appendChild(script);
+  }
+
+  // Run immediately when the page loads
+  loadGiscus();
+
+  // (Optional but highly recommended) Watch for the user clicking your theme toggle icon 
+  // so the discussion box updates immediately without needing a manual page refresh
+  var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.type === "attributes" && mutation.attributeName === "data-md-color-scheme") {
+        loadGiscus();
+      }
+    });
+  });
+
+  observer.observe(document.body, { attributes: true });
+</script>
+
 {% endblock %}
