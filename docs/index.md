@@ -7,14 +7,17 @@ Welcome to 4D-Bio!
 AI cannot replace human intellect, and it should never replace bioinformaticians. This is a call to the community of bioinformatics professionals to come together to drive the transformation of our profession. As domain experts, it is on us to determine how generative AI gets incorporated into our daily work. And it is also on us to show decision-makers why our expertise remains at the cornerstone of every major investment in life and health sciences.
 
 ## Our Mission
+
 To foster an inclusive and accountable professional community of bioinformaticians commited to upholding scientific rigor and ensuring reproducibility of computational life sciences research in the age of AI.  
 
-## Our purpose 
+## Our Purpose 
+
 The main purpose of this repository is to be a town square for the community to shape the guidelines for the professional practice of bioinformatics in the age of agentic AI. 
 
 AI technology is moving faster than the rate of scientific publishing. The pace of new information is simply too overwhelming for any one of us to keep up with alone. By creating this repo, my hope is that anyone with something interesting to share can do so, regardless of their resources. We amplify the impact of regional efforts by capturing discussions, resources, and lessons learned in a central point whithout borders, politics, organizational interests. 
 
 ## How to use this site
+
 This site is a living document. You can navigate through the practice model using the sidebar. If you have questions or ideas, we invite you to participate in our community discussions at the bottom of each page or contribute directly to this text by clicking the edit button at the top right. 
 
 ## How to Contribute
