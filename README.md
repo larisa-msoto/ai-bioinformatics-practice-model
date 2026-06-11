@@ -10,4 +10,4 @@ To contrubute to the discussion go to our [Discussions](https://github.com/laris
 
 ---
 
-This resource is based on the (AI Fluency Framework)[https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com] developed by Prof. Rick Dakan, Prof. Joseph Feller, and Anthropic, used under CC BY-NC-SA 4.0. To learn more about the framework and it's associated educational resources see Anthropic's [AI Fluency: Framework & Foundations site](https://www.anthropic.com/learn/claude-for-you).
+This resource is based on the AI Fluency Framework](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) developed by Prof. Rick Dakan, Prof. Joseph Feller, and Anthropic, used under CC BY-NC-SA 4.0. To learn more about the framework and it's associated educational resources see Anthropic's [AI Fluency: Framework & Foundations site](https://www.anthropic.com/learn/claude-for-you).
