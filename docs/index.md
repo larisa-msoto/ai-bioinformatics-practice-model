@@ -2,9 +2,9 @@
 
 Welcome to 4D-Bio! 
 
-4D-Bio is a professional practice model for AI-Augmented Bioinformatics. Inspired by  [Anthropic’s 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) and the [ISCB Competency Framework](https://competency.ebi.ac.uk/framework/iscb/3.0), 4D-Bio contextualizes these frameworks into the professional practice of bioinformatics in the age of generative AI. This open-source repository serves as a living resource for the community to drive the responsible integration of generative AI into our professional activities as the field continues to evolve. 
+4D-Bio is the first clear roadmap to AI-fluency in Bioinformatics. Inspired by [Anthropic’s 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) and the [ISCB Competency Framework](https://competency.ebi.ac.uk/framework/iscb/3.0), this professional practice model maps classic bioinformatics skills across the four AI-fluency competencies of Anthropic's framework (Delegation, Description, Discernment, and Dilligence) and contextualizes them into the professional practice of AI-augmented Bioinformatics. 
 
-AI cannot replace human intellect, and it should never replace bioinformaticians. This is a call to the community of bioinformatics professionals to come together to drive the transformation of our profession. As domain experts, it is on us to determine how generative AI gets incorporated into our daily work. And it is also on us to show decision-makers why our expertise remains at the cornerstone of every major investment in life and health sciences.
+This open-source repository serves as a living resource for the community to drive the responsible integration of generative AI into our professional activities as the field evolves. It is a call to the community of bioinformatics professionals to come together to drive the transformation of our profession. As domain experts, it is on us to determine how generative AI gets incorporated into our daily work, and to show decision-makers why our expertise remains at the cornerstone of every major investment in life and health sciences.
 
 ## Our Mission
 
