@@ -33,3 +33,7 @@ Other was to contribute:
 - **Want to join the moderators/mainteiners team?** Keep an eye out for the application form!
 
 For more details see the [Contributor Guide](https://larisa-msoto.github.io/ai-bioinformatics-practice-model/contributing/).
+
+---
+
+This resource is based on the (AI Fluency Framework)[https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com] developed by Prof. Rick Dakan, Prof. Joseph Feller, and Anthropic, used under CC BY-NC-SA 4.0. To learn more about the framework and it's associated educational resources see Anthropic's [AI Fluency: Framework & Foundations site](https://www.anthropic.com/learn/claude-for-you).
