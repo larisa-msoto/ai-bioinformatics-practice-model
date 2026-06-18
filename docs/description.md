@@ -28,6 +28,7 @@ Description in Bioinformatics applies to the following professional practice are
 
 * High-context prompting
     * Write structured, unambiguous prompts using advanced techniques to guide AI analysis.
+    * Handle prompts as one more scientific resource that needs to be tested, documented, reported, reproduced, and cited. 
 
 * Adaptive instruction
     * Redirect AI systems dynamically when they drift from the expected analytical path or task boundaries.
