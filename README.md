@@ -1,6 +1,6 @@
-## 4D-Bio: A professional practice model for AI-Augmented Bioinformatics 
+## 4D-Bio: A Practice Model for AI-Augmented Bioinformatics 
 
-To view the professional practice model go [here](https://larisa-msoto.github.io/ai-bioinformatics-practice-model/).
+To view the practice model go [here](https://larisa-msoto.github.io/ai-bioinformatics-practice-model/).
 
 To contrubute to the discussion go to our [Discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions) page. There you can find our community forum and join the conversation on topics like:
 
