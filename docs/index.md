@@ -2,9 +2,9 @@
 
 Welcome to 4D-Bio! 
 
-4D-Bio is a professional practice model for AI-Augmented Bioinformatics. Inspired by  [Anthropic’s 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) and the [ISCB Competency Framework](https://competency.ebi.ac.uk/framework/iscb/3.0), 4D-Bio contextualizes these frameworks into the professional practice of bioinformatics in the age of generative AI. This open-source repository serves as a living resource for the community to drive the responsible integration of generative AI into our professional activities as the field continues to evolve. 
+4D-Bio is the first clear roadmap to AI-fluency in Bioinformatics. Inspired by [Anthropic’s 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) and the [ISCB Competency Framework](https://competency.ebi.ac.uk/framework/iscb/3.0), this professional practice model maps classic bioinformatics skills across the four AI-fluency competencies of Anthropic's framework (Delegation, Description, Discernment, and Dilligence) and contextualizes them into the professional practice of AI-augmented Bioinformatics. 
 
-AI cannot replace human intellect, and it should never replace bioinformaticians. This is a call to the community of bioinformatics professionals to come together to drive the transformation of our profession. As domain experts, it is on us to determine how generative AI gets incorporated into our daily work. And it is also on us to show decision-makers why our expertise remains at the cornerstone of every major investment in life and health sciences.
+This open-source repository serves as a living resource for the community to drive the responsible integration of generative AI into our professional activities as the field evolves. It is a call to the community of bioinformatics professionals to come together to drive the transformation of our profession. As domain experts, it is on us to determine how generative AI gets incorporated into our daily work, and to show decision-makers why our expertise remains at the cornerstone of every major investment in life and health sciences.
 
 ## Our Mission
 
@@ -20,10 +20,25 @@ AI technology is moving faster than the rate of scientific publishing. The pace 
 
 This site is a living document. You can navigate through the practice model using the sidebar. If you have questions or ideas, we invite you to participate in our community discussions at the bottom of each page or contribute directly to this text by clicking the edit button at the top right. 
 
-## How to Contribute
+The easiest and most helpful thing you can do is share your thoughts in the community forum section of our [Discussions page](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions):
+
+  * 📖 **AI Errors Archive**: Document examples of cases where AI failed and how you caught the mistake.
+  * 🔮 **Future of Bioinformatics**: Share your view on what you want and don't want the future of AI-augmented bioinformatics to be like.
+  * 🧬 **Model Feedback**: Share examples of how the professional practice model helped you build or improve something, like a new workshop or a course curriculum.
+
+Other was to contribute:   
 
 - **See a typo?** Click the pencil icon in the top-right corner of any page to propose a fix.   
-- **Have an idea?** Open a new discussion in our [Discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions) or in the discussion section of each page.   
 - **Want to add to the model?** Follow our [Contributing Guide](contributing.md). 
-- **Something really resonates?** Let the community know in the [Discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions).   
 - **Want to join the moderators/mainteiners team?** Keep an eye out for the application form!
+
+For more details see the [Contributor Guide](https://larisa-msoto.github.io/ai-bioinformatics-practice-model/contributing/).
+
+---
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+This resource is based on the [AI Fluency Framework](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) developed by Prof. Rick Dakan, Prof. Joseph Feller, and Anthropic, used under CC BY-NC-SA 4.0. To learn more about the framework and it's associated educational resources see Anthropic's [AI Fluency: Framework & Foundations site](https://www.anthropic.com/learn/claude-for-you).
+
+
