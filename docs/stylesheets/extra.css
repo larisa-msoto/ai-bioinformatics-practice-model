@@ -363,7 +363,8 @@ button:focus-visible,
    in the design system's top-accented panel style */
 .md-typeset .admonition.abstract,
 .md-typeset details.abstract {
-  border-top: 3px solid var(--abp-orchid);
+  border: 1px solid var(--abp-orchid);
+  border-top-width: 3px;
 }
 .md-typeset .abstract > .admonition-title,
 .md-typeset .abstract > summary {
