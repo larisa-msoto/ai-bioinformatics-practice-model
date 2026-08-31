@@ -1,0 +1,29 @@
+{
+  "projectName": "ai-bioinformatics-practice-model",
+  "projectOwner": "larisa-msoto",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "docs/contributors.md"
+  ],
+  "imageSize": 100,
+  "commitConvention": "none",
+  "commitType": "docs",
+  "contributorsPerLine": 7,
+  "contributorsSortAlphabetically": false,
+  "linkToUsage": false,
+  "contributors": [
+    {
+      "login": "larisa-msoto",
+      "name": "Larisa M. Soto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54556262?v=4",
+      "profile": "https://github.com/larisa-msoto",
+      "contributions": [
+        "content",
+        "ideas",
+        "doc",
+        "maintenance"
+      ]
+    }
+  ]
+}

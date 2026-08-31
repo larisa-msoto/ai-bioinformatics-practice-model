@@ -1,4 +1,4 @@
-# Contributing to this project
+# Contributing to 4D-Bio
 
 Corrections and new ideas are both welcome. Here is how you can help.
 
@@ -6,7 +6,7 @@ Corrections and new ideas are both welcome. Here is how you can help.
 - **Reporting issues:** if you found something wrong, open an [issue](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/issues) and let us know.
 - **Proposing edits:** click the edit pencil icon on any page. It takes you to GitHub's web editor; when you save, you open a pull request.
 
-## How to contribute to the discussions
+## How to participate in the discussions
 
 The [Discussions page](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions) has two sections: the community forum and the general-purpose section. The community forum exists to become a shared knowledge base, so that informal conversations and individual actions reach more people. Sharing your experience there helps others more than you might expect.
 
@@ -23,5 +23,9 @@ To propose edits to the practice model directly:
 3. **Open a pull request** against the `main` branch.
 4. **Wait for review.** A maintainer checks your changes for accuracy and fit with the practice model.
 5. **Get credited.** Once merged, the `all-contributors` bot adds your profile to our [contributors page](contributors.md).
+
+## For maintainers
+
+The [contributors page](contributors.md) is kept up to date by the [all-contributors](https://allcontributors.org) bot. To credit someone, comment `@all-contributors please add @username for content, ideas` on any issue or pull request. The full workflow, contribution types, and fallback steps are in the [maintainer guide](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/blob/main/MAINTAINERS.md).
 
 This project is released with a [Code of conduct](code_of_conduct.md). By taking part, you agree to its terms.
