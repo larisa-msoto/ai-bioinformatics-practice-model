@@ -5,6 +5,45 @@ what was taught, which topic files were updated, and any correction made.
 
 ---
 
+## 2026-08-31 — Session 2 (capability-page restructure)
+
+**Context:** The author asked to restructure the four capability pages on the site
+around the corrected four-level hierarchy. Not new model facts, but decisions that
+the mapper tool should mirror.
+
+**Decisions applied to the site (`../../docs/{delegation,description,discernment,diligence}.md`):**
+
+1. **Practice areas are numbered** (`## 1.`, `## 2.`, …) in both the body and the
+   right-sidebar table of contents. Anchor slugs are now `#1-<slug>` etc.
+2. Each page carries an **"On this page"** contents strip (an `abstract`
+   admonition) listing the numbered practice areas.
+3. **Each practice area is rendered as one table**: column 1 = **Category**
+   (Level 2) with an origin tag, column 2 = **Competency** (Level 3). When a
+   category has multiple competencies, the category cell is filled on the first
+   row and left blank (`&nbsp;`) on continuation rows — mirroring the merged cells
+   in the original spreadsheet.
+4. **Origin tags** on every category: `ISCB`, `ACTIVE`, `4D-Bio` (styled pills,
+   defined in `../../docs/stylesheets/extra.css`). `ISCB`/`ACTIVE` = from an
+   existing framework; `4D-Bio` = original to this model. → for the data model this
+   is `group.kind` + `group.framework`.
+5. **Normalization done while restructuring:** in Discernment › "Evaluating the
+   biological plausibility of AI outputs", the ACTIVE reference "Critical
+   Verification Protocols" — previously an inline second bullet inside "Biological
+   integrity verification" — is now its **own category row** tagged `ACTIVE`. This
+   resolves one item in [`open-questions.md`](open-questions.md).
+6. ISCB competency cells reformatted from `ISCB D3: <text>` to `**D3** — <text>`
+   (the `ISCB` prefix is now redundant with the tag).
+
+**Config changes:** `mkdocs.yml` — removed `toc.baselevel: 2` (it was pushing every
+heading down one level and creating a duplicate page `<h1>`), set `toc.toc_depth: 2`,
+added the `tables` extension explicitly and `extra_css`.
+
+**Not changed:** competency wording is otherwise verbatim from the previous site
+text. The `content-inventory.md` snapshot still reflects the pre-restructure
+wording and counts; re-extract from the live pages before building data.
+
+---
+
 ## 2026-08-31 — Session 1 (initial memory build)
 
 **Context:** The author asked for a readability review of the 4D-Bio site, then

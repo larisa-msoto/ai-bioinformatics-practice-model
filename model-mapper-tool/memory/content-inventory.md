@@ -1,4 +1,11 @@
-# Content inventory (snapshot: 2026-08-31)
+# Content inventory (snapshot: 2026-08-31, pre-restructure wording)
+
+> Structure note: as of Session 2 the live pages render each practice area as a
+> table (Category | Competency) with numbered practice areas and origin tags, and
+> the Discernment "Critical Verification Protocols" ACTIVE item is now its own
+> category row. The hierarchy below is unchanged; only presentation and that one
+> split differ. Re-extract before building data.
+
 
 Full extraction of every Level-1 practice area, Level-2 group, and Level-3
 competency currently on the site, with linking status. Legend:

@@ -68,6 +68,9 @@ theme:
           name: Switch to light mode
 
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
   - git-revision-date-localized:
@@ -77,8 +80,8 @@ plugins:
 markdown_extensions:
   - toc:
       permalink: true
-      baselevel: 2
-      toc_depth: 3
+      toc_depth: 2
+  - tables
   - admonition
   - pymdownx.details
   - pymdownx.superfences:

@@ -1,0 +1,46 @@
+/* ---------------------------------------------------------------------------
+   4D-Bio custom styles
+   --------------------------------------------------------------------------- */
+
+/* Category origin tags -----------------------------------------------------
+   Usage in Markdown (needs attr_list):  [ISCB]{ .tag .tag-iscb }
+*/
+.md-typeset .tag {
+  display: inline-block;
+  padding: 0.05em 0.55em;
+  margin-left: 0.4em;
+  border-radius: 1em;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+  line-height: 1.7;
+}
+
+.md-typeset .tag-iscb   { background: #e3f2fd; color: #0b4a9c; }
+.md-typeset .tag-active { background: #fff3e0; color: #ba4a00; }
+.md-typeset .tag-4dbio  { background: #ede7f6; color: #4527a0; }
+
+[data-md-color-scheme="slate"] .md-typeset .tag-iscb   { background: #123a63; color: #cfe4ff; }
+[data-md-color-scheme="slate"] .md-typeset .tag-active { background: #5c3210; color: #ffe2c2; }
+[data-md-color-scheme="slate"] .md-typeset .tag-4dbio  { background: #382a63; color: #e0d6ff; }
+
+/* Practice-area tables ---------------------------------------------------- */
+.md-typeset table:not([class]) th:first-child,
+.md-typeset table:not([class]) td:first-child {
+  width: 32%;
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) td:last-child {
+  vertical-align: top;
+}
+
+/* "On this page" contents strip ---------------------------------------------
+   A compact ordered list inside an `abstract` admonition.
+*/
+.md-typeset .admonition.abstract > .admonition-title + ol {
+  margin-bottom: 0.4rem;
+}
