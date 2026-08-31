@@ -9,7 +9,8 @@ docs_dir: docs/
 site_description: "4D-Bio is a community-maintained practice model that maps the skills of a practicing bioinformatician onto Anthropic's 4D framework for AI fluency."
 site_author: Larisa M. Soto
 copyright: >-
-  A project of the Association of Bioinformatics Professionals.
+  A project of the
+  <a href="https://bioinfopro.org">Association of Bioinformatics Professionals</a>.
   Content is licensed under
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>,
   based on the
