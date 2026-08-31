@@ -240,13 +240,34 @@ button:focus-visible,
 }
 
 /* ---- Tables --------------------------------------------------- */
+/* Fit-to-page, wrapping tables: the table always spans the content width,
+   `table-layout: fixed` makes columns honour the widths set below instead
+   of stretching to fit their text, and long cell text wraps onto multiple
+   lines. No sideways scrolling. */
+.md-typeset .md-typeset__table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;   /* safety net only; the table below fits on its own */
+}
 .md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
   border: 1px solid var(--abp-alice);
   border-radius: var(--abp-radius);
   border-collapse: separate;
   border-spacing: 0;
   box-shadow: none;
   font-size: 0.8rem;
+}
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
 }
 .md-typeset table:not([class]) th {
   background-color: var(--abp-alice-50);
@@ -260,23 +281,32 @@ button:focus-visible,
 .md-typeset table:not([class]) tbody tr:first-child td {
   border-top: none;
 }
-.md-typeset table:not([class]) th:first-child,
-.md-typeset table:not([class]) td:first-child {
-  width: 28%;
-  vertical-align: top;
-}
-.md-typeset table:not([class]) td:nth-child(2) {
-  vertical-align: top;
-}
-.md-typeset table:not([class]) th:last-child,
-.md-typeset table:not([class]) td:last-child {
-  width: 1%;
-  white-space: nowrap;
-  text-align: center;
-  vertical-align: top;
-}
 .md-typeset table:not([class]) tbody tr:hover {
   background-color: var(--abp-alice-50);
+}
+
+/* Two-column tables: narrow label column, wide description column. */
+.md-typeset table:not([class]) th:first-child,
+.md-typeset table:not([class]) td:first-child {
+  width: 30%;
+}
+
+/* Three-column tables (Category | Competency | Source): give the outer
+   columns fixed room and let the middle text column take the rest.
+   `:nth-last-child(3)` / `:nth-child(3):last-child` match only rows that
+   have exactly three cells, so two-column tables are untouched. */
+.md-typeset table:not([class]) th:first-child:nth-last-child(3),
+.md-typeset table:not([class]) td:first-child:nth-last-child(3) {
+  width: 24%;
+}
+.md-typeset table:not([class]) th:nth-child(3):last-child,
+.md-typeset table:not([class]) td:nth-child(3):last-child {
+  width: 5.5rem;
+}
+
+/* Keep the source pill itself on one line inside its wrapping cell. */
+.md-typeset table:not([class]) .tag {
+  white-space: nowrap;
 }
 
 /* ---- Code ---------------------------------------------------------- */

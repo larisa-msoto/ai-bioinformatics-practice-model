@@ -16,7 +16,7 @@ In the tables below, the **Source** column shows where each competency comes fro
 ## 1. Evaluating the biological plausibility of AI outputs
 
 | Category | Competency | Source |
-| --- | --- | :---: |
+| --- | --- | --- |
 | **Biological integrity verification** | Verify the biological plausibility of AI-generated results against established mechanistic principles in your specific life science domain, and trusted reference sources or databases. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Critical Verification Protocols** | Implement structured validation procedures to audit AI-generated code. | <span class="tag tag-active">ACTIVE</span> |
 | **Statistical auditing** | Assess the statistical assumptions, significance estimates, and error measurements of AI-generated results to verify mathematical rigor. | <span class="tag tag-4dbio">4D-Bio</span> |
@@ -25,7 +25,7 @@ In the tables below, the **Source** column shows where each competency comes fro
 ## 2. Benchmarking AI results against standard baselines
 
 | Category | Competency | Source |
-| --- | --- | :---: |
+| --- | --- | --- |
 | **Algorithmic bias detection** | Screen AI outputs for population skews, data imbalances, or training data biases across diverse experimental groups. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Automated evaluation design** | Build programmatic evaluation pipelines that automatically calculate error rates and compare AI outputs against gold-standard biological datasets or software tools. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Verification Confidence Calibration** | Close the "proof-belief gap" by aligning one's belief in an AI solution's correctness with objective accuracy outcomes. | <span class="tag tag-active">ACTIVE</span> |
@@ -33,7 +33,7 @@ In the tables below, the **Source** column shows where each competency comes fro
 ## 3. Detecting computational artifacts and hallucinations
 
 | Category | Competency | Source |
-| --- | --- | :---: |
+| --- | --- | --- |
 | **Hallucination detection** | Identify fabricated data, non-existent literature citations, or flawed logical loops within AI text and code outputs. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Collaborative code review** | Engage in structured peer code reviews, pull requests, and issue tracking on GitHub to systematically verify the accuracy and logic of AI-generated code in an iterative manner throughout the project's lifecycle. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Code auditing and debugging** | Audit AI-generated scripts line-by-line to expose syntax errors, silent logical bugs, or hardcoded variables before running them. | <span class="tag tag-4dbio">4D-Bio</span> |

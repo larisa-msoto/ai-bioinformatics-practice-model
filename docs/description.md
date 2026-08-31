@@ -16,7 +16,7 @@ In the tables below, the **Source** column shows where each competency comes fro
 ## 1. Translating biological knowledge into precise AI instructions
 
 | Category | Competency | Source |
-| --- | --- | :---: |
+| --- | --- | --- |
 | **Bioscience domain knowledge** | [**A3** — Work at depth in at least one technical area aligned with the life sciences.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7950) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7950">ISCB</a> |
 | **Domain knowledge translation** | Translate deep domain-specific biological mechanisms, technical terminology, and experimental variables into precise computational instructions for AI execution. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **High-context prompting** | Write structured, unambiguous prompts using advanced techniques to guide AI analysis. | <span class="tag tag-4dbio">4D-Bio</span> |
@@ -26,14 +26,14 @@ In the tables below, the **Source** column shows where each competency comes fro
 ## 2. Structuring raw biological data for AI model context
 
 | Category | Competency | Source |
-| --- | --- | :---: |
+| --- | --- | --- |
 | **Metadata standardization** | Apply highly descriptive system instructions that translate experimental designs and dataset annotations into clear parameters for AI ingestion. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Bioscience domain knowledge** | [**B3** — Prepare life science data for computational analysis.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7938) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7938">ISCB</a> |
 
 ## 3. Documenting and tracking AI interactions and software parameters for reproducibility
 
 | Category | Competency | Source |
-| --- | --- | :---: |
+| --- | --- | --- |
 | **Provenance logging** | Record every prompt text, system configuration, model version, and seed value used to achieve a computational result. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Automated documentation** | Generate exhaustive documentation that describes the functions, parameters, and expected outputs of AI-assisted code. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Version control** | Track changes to scripts, prompts, and configurations regularly using version control systems like GitHub. | <span class="tag tag-4dbio">4D-Bio</span> |
