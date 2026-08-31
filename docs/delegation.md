@@ -29,8 +29,8 @@ In the tables below, the **Source** column shows where each competency comes fro
 | **Modular task decomposition** | Break down a complex bioinformatics problem into clear, individual tasks that can be performed independently. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Technical acceptance criteria definition** | Define the exact expected outputs, data formats, and quality benchmarks for each task before starting execution. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Awareness and Task-AI Alignment** | Critically assess the complexity of a task to determine if AI integration is appropriate or if it risks bypassing essential learning. | <span class="tag tag-active">ACTIVE</span> |
-| **Data Science Domain Knowledge** | [**D3** — Use data science methods suitable for the size and complexity of the data.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7940) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7940">ISCB</a> |
-| &nbsp; | [**F3** — Make appropriate use of bioinformatics tools and resources.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7942) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7942">ISCB</a> |
+| **Data Science Domain Knowledge** | [**D3**: Use data science methods suitable for the size and complexity of the data.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7940) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7940">ISCB</a> |
+| &nbsp; | [**F3**: Make appropriate use of bioinformatics tools and resources.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7942) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7942">ISCB</a> |
 
 ## 3. Orchestrating autonomous AI workflows to execute tasks at scale
 
@@ -39,5 +39,5 @@ In the tables below, the **Source** column shows where each competency comes fro
 | **Multi-agent architecture design** | Architect end-to-end automated workflows that leverage chained AI agents to execute complex, multi-stage bioinformatics analyses. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Human-in-the-loop checkpoints** | Engineer programmatic checkpoints and strategic pause points within automated workflows to surface high-stakes AI decisions for human validation. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Computational resource management** | Manage computational resources, API limits, and token budgets to keep automated workflows running efficiently. | <span class="tag tag-4dbio">4D-Bio</span> |
-| **Computer Science Domain** | [**H3** — Make appropriate and efficient use of scripting and programming languages.](https://competency.ebi.ac.uk/framework/iscb/3.0/competencies/H3) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competencies/H3">ISCB</a> |
+| **Computer Science Domain** | [**H3**: Make appropriate and efficient use of scripting and programming languages.](https://competency.ebi.ac.uk/framework/iscb/3.0/competencies/H3) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competencies/H3">ISCB</a> |
 | **Transparent integration** | Maintain "human-in-the-loop" governance for all computational conclusions. | <span class="tag tag-active">ACTIVE</span> |

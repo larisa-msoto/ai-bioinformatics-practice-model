@@ -11,9 +11,9 @@ Using AI well is now part of practicing bioinformatics, and 4D-Bio is the shared
 
 4D-Bio is a community-maintained map of the skills a bioinformatician needs to use
 generative AI responsibly. It organizes those skills around four capabilities from
-[Anthropic's 4D framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com)
-&mdash; **Delegation, Description, Discernment, and Diligence** &mdash; and links each
-one back to the established [ISCB Competency Framework](https://competency.ebi.ac.uk/framework/iscb/3.0)
+[Anthropic's 4D framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com):
+**Delegation, Description, Discernment, and Diligence**. Each one links back to the
+established [ISCB Competency Framework](https://competency.ebi.ac.uk/framework/iscb/3.0)
 for bioinformatics.
 
 [Read the overview](overview.md){ .md-button .md-button--primary }
@@ -31,14 +31,14 @@ for bioinformatics.
 
 ## Who this is for
 
-- **Practicing bioinformaticians** &mdash; self-assess where your AI skills are strong or thin.
-- **Educators and curriculum designers** &mdash; decide what to teach and how to train the next generation.
-- **Team leads and hiring managers** &mdash; write job descriptions and AI-use guidelines grounded in a shared vocabulary.
+- **Practicing bioinformaticians**: self-assess where your AI skills are strong or thin.
+- **Educators and curriculum designers**: decide what to teach and how to train the next generation.
+- **Team leads and hiring managers**: write job descriptions and AI-use guidelines grounded in a shared vocabulary.
 
 ## How to use it
 
 1. Read the **[Overview](overview.md)** to see how the model is built and how its three source frameworks fit together.
-2. Pick a capability and read its **practice areas** &mdash; each groups a set of concrete skills.
+2. Pick a capability and read its **practice areas**. Each groups a set of concrete skills.
 3. Follow the **ISCB** and **ACTIVE** links to place each skill in the wider profession.
 
 ---

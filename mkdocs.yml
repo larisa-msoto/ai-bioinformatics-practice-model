@@ -58,7 +58,7 @@ theme:
     - content.action.edit
     - content.code.copy
 
-  # Single light palette only — the BioinfoPro design system defines five
+  # Single light palette only. The BioinfoPro design system defines five
   # colours and no dark mode. Brand hues are applied in stylesheets/extra.css.
   palette:
     scheme: default

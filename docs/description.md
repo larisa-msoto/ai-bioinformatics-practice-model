@@ -17,7 +17,7 @@ In the tables below, the **Source** column shows where each competency comes fro
 
 | Category | Competency | Source |
 | --- | --- | --- |
-| **Bioscience domain knowledge** | [**A3** — Work at depth in at least one technical area aligned with the life sciences.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7950) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7950">ISCB</a> |
+| **Bioscience domain knowledge** | [**A3**: Work at depth in at least one technical area aligned with the life sciences.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7950) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7950">ISCB</a> |
 | **Domain knowledge translation** | Translate deep domain-specific biological mechanisms, technical terminology, and experimental variables into precise computational instructions for AI execution. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **High-context prompting** | Write structured, unambiguous prompts using advanced techniques to guide AI analysis. | <span class="tag tag-4dbio">4D-Bio</span> |
 | &nbsp; | Handle prompts as one more scientific resource that needs to be tested, documented, reported, reproduced, and cited. | <span class="tag tag-4dbio">4D-Bio</span> |
@@ -28,7 +28,7 @@ In the tables below, the **Source** column shows where each competency comes fro
 | Category | Competency | Source |
 | --- | --- | --- |
 | **Metadata standardization** | Apply highly descriptive system instructions that translate experimental designs and dataset annotations into clear parameters for AI ingestion. | <span class="tag tag-4dbio">4D-Bio</span> |
-| **Bioscience domain knowledge** | [**B3** — Prepare life science data for computational analysis.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7938) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7938">ISCB</a> |
+| **Bioscience domain knowledge** | [**B3**: Prepare life science data for computational analysis.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7938) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7938">ISCB</a> |
 
 ## 3. Documenting and tracking AI interactions and software parameters for reproducibility
 

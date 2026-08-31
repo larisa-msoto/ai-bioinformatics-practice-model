@@ -20,7 +20,7 @@ In the tables below, the **Source** column shows where each competency comes fro
 
 | Category | Competency | Source |
 | --- | --- | --- |
-| **Professional Conduct** | [**J3** — Comply with professional, ethical, legal, and social standards.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7946) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7946">ISCB</a> |
+| **Professional Conduct** | [**J3**: Comply with professional, ethical, legal, and social standards.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7946) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7946">ISCB</a> |
 | **AI regulatory alignment** | Monitor rapidly shifting regional and [global AI legal frameworks](https://github.com/melissawm/open-source-ai-contribution-policies) to dynamically align pipeline deployments with local jurisdiction mandates. | <span class="tag tag-4dbio">4D-Bio</span> |
 | **Ethical evaluation** | Identify algorithmic bias and ensure that AI-driven decisions are calibrated, safe, and legally compliant. | <span class="tag tag-4dbio">4D-Bio</span> |
 | &nbsp; | Formulate institutional/team risk guardrails to prevent algorithmic discrimination, dual-use biological research hazards, or intellectual property infringements. | <span class="tag tag-4dbio">4D-Bio</span> |
@@ -29,24 +29,24 @@ In the tables below, the **Source** column shows where each competency comes fro
 
 | Category | Competency | Source |
 | --- | --- | --- |
-| **Data Science Domain Knowledge** | [**E3** — Manage own and others' data according to community standards (FAIR principles).](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7941) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7941">ISCB</a> |
-| **Computer Science Domain Knowledge** | [**I3** — Construct and maintain bioinformatics computing infrastructure.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7945) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7945">ISCB</a> |
-| &nbsp; | [**G3** — Contribute to the design of user-centric bioinformatics tools.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7943) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7943">ISCB</a> |
+| **Data Science Domain Knowledge** | [**E3**: Manage own and others' data according to community standards (FAIR principles).](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7941) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7941">ISCB</a> |
+| **Computer Science Domain Knowledge** | [**I3**: Construct and maintain bioinformatics computing infrastructure.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7945) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7945">ISCB</a> |
+| &nbsp; | [**G3**: Contribute to the design of user-centric bioinformatics tools.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7943) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7943">ISCB</a> |
 
 ## 3. Countering mental dependency while preserving technical mastery
 
 | Category | Competency | Source |
 | --- | --- | --- |
-| **Iterative skill development** | Counter "cognitive offloading" — the habit of delegating reasoning to tools — by intentionally practicing the "cognitive musculature" of manual coding and statistical reasoning. | <span class="tag tag-active">ACTIVE</span> |
-| **Professional Conduct** | [**M3** — Engage in continuing professional development.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7949) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7949">ISCB</a> |
+| **Iterative skill development** | Counter "cognitive offloading" (the habit of delegating reasoning to tools) by intentionally practicing the "cognitive musculature" of manual coding and statistical reasoning. | <span class="tag tag-active">ACTIVE</span> |
+| **Professional Conduct** | [**M3**: Engage in continuing professional development.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7949) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7949">ISCB</a> |
 
 ## 4. Nurturing a supportive and responsible scientific community
 
 | Category | Competency | Source |
 | --- | --- | --- |
-| **Professional Conduct** | [**L3** — Work effectively in teams to accomplish common goals.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7948) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7948">ISCB</a> |
-| &nbsp; | [**K3** — Communicate meaningfully with a range of audiences.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7947) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7947">ISCB</a> |
-| **Bioscience Domain Knowledge** | [**C3** — Have a positive impact on scientific discovery through bioinformatics.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7939) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7939">ISCB</a> |
+| **Professional Conduct** | [**L3**: Work effectively in teams to accomplish common goals.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7948) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7948">ISCB</a> |
+| &nbsp; | [**K3**: Communicate meaningfully with a range of audiences.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7947) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7947">ISCB</a> |
+| **Bioscience Domain Knowledge** | [**C3**: Have a positive impact on scientific discovery through bioinformatics.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7939) | <a class="tag tag-iscb" href="https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7939">ISCB</a> |
 
 ## 5. Guiding institutional strategy and cross-sector diplomacy
 
