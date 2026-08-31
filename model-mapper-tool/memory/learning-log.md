@@ -33,6 +33,12 @@ the mapper tool should mirror.
    resolves one item in [`open-questions.md`](open-questions.md).
 6. ISCB competency cells reformatted from `ISCB D3: <text>` to `**D3** — <text>`
    (the `ISCB` prefix is now redundant with the tag).
+7. **Refinement (same day):** the tables gained a third **`Source`** column and the
+   origin pill moved there (Category column is now just the group name). For linked
+   (ISCB) competencies the Source pill is itself a link to the same ISCB URL as the
+   competency. Pills were shrunk. The contents box was renamed "Practice areas on
+   this page" and recoloured to the 4D-Bio violet. → data model unchanged; this is
+   purely how `framework_ref.url` and `group.framework` get rendered.
 
 **Config changes:** `mkdocs.yml` — removed `toc.baselevel: 2` (it was pushing every
 heading down one level and creating a duplicate page `<h1>`), set `toc.toc_depth: 2`,
