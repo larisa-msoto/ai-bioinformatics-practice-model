@@ -1,4 +1,4 @@
-# 4D-Bio: A Practice Model for AI-Augmented Bioinformatics
+# 4D-Bio: a practice model for AI-augmented bioinformatics
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
@@ -9,7 +9,7 @@ It organizes those skills around the four capabilities of
 &mdash; **Delegation, Description, Discernment, and Diligence** &mdash; and links each one
 back to the established [ISCB Competency Framework v3.0](https://competency.ebi.ac.uk/framework/iscb/3.0).
 
-📖 **Read the practice model:** <https://larisa-msoto.github.io/ai-bioinformatics-practice-model/>
+**Read the practice model:** <https://larisa-msoto.github.io/ai-bioinformatics-practice-model/>
 
 ## Who it's for
 
@@ -24,7 +24,7 @@ This is an early public draft, and a call to the bioinformatics community to sha
 - **Discuss:** join the [community discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions) &mdash;
   the AI Errors Archive, the Future of Bioinformatics, and Model Feedback.
 - **Fix a typo:** click the pencil icon on any page of the site.
-- **Propose changes to the model:** see the [Contributing Guide](docs/contributing.md).
+- **Propose changes to the model:** see the [contributing guide](docs/contributing.md).
 
 ## Building the site locally
 

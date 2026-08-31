@@ -8,10 +8,11 @@ edit_uri: 'blob/main/docs/'
 docs_dir: docs/
 site_description: "4D-Bio is a community-maintained practice model that maps the skills of a practicing bioinformatician onto Anthropic's 4D framework for AI fluency."
 site_author: Larisa M. Soto
+copyright: A project of the Association of Bioinformatics Professionals
 
 nav:
   - Home: index.md
-  - The Model:
+  - The model:
       - Overview: overview.md
       - Delegation: delegation.md
       - Description: description.md
@@ -19,9 +20,9 @@ nav:
       - Diligence: diligence.md
       - References: references.md
   - Contribute:
-      - How to Contribute: contributing.md
+      - How to contribute: contributing.md
       - Contributors: contributors.md
-      - Code of Conduct: code_of_conduct.md
+      - Code of conduct: code_of_conduct.md
 
 validation:
   omitted_files: warn
@@ -37,6 +38,9 @@ theme:
   name: material
   locale: en
   custom_dir: overrides
+  font:
+    text: Inter
+    code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -48,24 +52,12 @@ theme:
     - content.action.edit
     - content.code.copy
 
+  # Single light palette only — the BioinfoPro design system defines five
+  # colours and no dark mode. Brand hues are applied in stylesheets/extra.css.
   palette:
-      # 1. Light Mode Configuration
-      - media: "(prefers-color-scheme: light)"
-        scheme: default
-        primary: indigo        # You can change this to indigo, teal, etc.
-        accent: deep purple
-        toggle:
-          icon: material/brightness-7
-          name: Switch to dark mode
-
-      # 2. Dark Mode Configuration
-      - media: "(prefers-color-scheme: dark)"
-        scheme: slate
-        primary: indigo
-        accent: deep purple
-        toggle:
-          icon: material/brightness-4
-          name: Switch to light mode
+    scheme: default
+    primary: custom
+    accent: custom
 
 
 extra_css:

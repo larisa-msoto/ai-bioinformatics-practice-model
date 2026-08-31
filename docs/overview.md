@@ -1,3 +1,5 @@
+<p class="eyebrow">The model</p>
+
 # Overview
 
 4D-Bio maps the day-to-day skills of a practicing bioinformatician onto a single

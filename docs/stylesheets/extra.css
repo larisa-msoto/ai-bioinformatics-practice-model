@@ -1,13 +1,320 @@
-/* ---------------------------------------------------------------------------
-   4D-Bio custom styles
-   --------------------------------------------------------------------------- */
+/* ===========================================================================
+   4D-Bio — Association of Bioinformatics Professionals house style
+   ---------------------------------------------------------------------------
+   Applies the BioinfoPro design system to MkDocs Material.
 
-/* Category origin tags ---------------------------------------------------- */
-/* Rendered in the table's "Source" column, as <span> or <a> (linked). */
+   Non-negotiables carried over from the design system:
+     - Five brand colours only (+ listed tints for text hierarchy / quiet fills)
+     - No shadows, gradients, photography, patterns, textures, illustration
+     - One radius (0.5rem; pill for tags), one border (1px alice blue),
+       one transition (0.15s ease)
+     - Sentence case everywhere except the uppercase eyebrow label
+     - Space Grotesk for display, Inter for everything else
+     - Light only — the brand defines no dark mode
+   Docs-platform deviations are noted inline.
+   =========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap");
+
+:root {
+  /* --- brand colours (the only five) --- */
+  --abp-deep-blue: #0b1f35;
+  --abp-pacific:   #25aec6;
+  --abp-orchid:    #9525aa;
+  --abp-alice:     #d9e2ec;
+  --abp-white:     #ffffff;
+
+  /* --- derived tints (text hierarchy + quiet fills only) --- */
+  --abp-deep-blue-80: #3b4c5d;
+  --abp-deep-blue-60: #6c7986;
+  --abp-alice-50:     #ecf1f6;
+  --abp-pacific-dark: #1b8b9e;
+  --abp-pacific-tint: #e3f5f8;
+  --abp-orchid-dark:  #761c87;
+  --abp-orchid-tint:  #f4e4f7;
+
+  --abp-display: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --abp-radius: 0.5rem;
+
+  /* --- map onto Material's tokens --- */
+  --md-default-fg-color:           var(--abp-deep-blue);
+  --md-default-fg-color--light:    var(--abp-deep-blue-80);
+  --md-default-fg-color--lighter:  var(--abp-deep-blue-60);
+  --md-default-fg-color--lightest: var(--abp-alice-50);
+  --md-default-bg-color:           var(--abp-white);
+
+  /* header/nav chrome: white band, deep-blue text */
+  --md-primary-fg-color:        var(--abp-white);
+  --md-primary-fg-color--light: var(--abp-white);
+  --md-primary-fg-color--dark:  var(--abp-white);
+  --md-primary-bg-color:        var(--abp-deep-blue);
+  --md-primary-bg-color--light: var(--abp-deep-blue-80);
+
+  /* interactive: royal orchid */
+  --md-accent-fg-color:             var(--abp-orchid);
+  --md-accent-fg-color--transparent: rgba(149, 37, 170, 0.1);
+  --md-accent-bg-color:             var(--abp-white);
+
+  --md-typeset-a-color: var(--abp-pacific);
+
+  --md-code-bg-color: var(--abp-alice-50);
+  --md-code-fg-color: var(--abp-deep-blue);
+
+  /* footer: alice band */
+  --md-footer-bg-color:        var(--abp-alice);
+  --md-footer-bg-color--dark:  var(--abp-alice);
+  --md-footer-fg-color:        var(--abp-deep-blue);
+  --md-footer-fg-color--light: var(--abp-deep-blue-80);
+  --md-footer-fg-color--lighter: var(--abp-deep-blue-60);
+
+  /* flat — separation is a 1px border, never a shadow */
+  --md-shadow-z1: none;
+  --md-shadow-z2: none;
+  --md-shadow-z3: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: 0s !important; }
+}
+
+/* ---- Display type ---------------------------------------------------- */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6,
+.md-header__title,
+.md-nav__title {
+  font-family: var(--abp-display);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--abp-deep-blue);
+}
+
+.md-typeset h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ---- Header / tabs: white, deep-blue text, 1px alice rule, no shadow -- */
+.md-header,
+.md-header--shadow {
+  box-shadow: none;
+  border-bottom: 1px solid var(--abp-alice);
+}
+
+.md-tabs {
+  border-bottom: 1px solid var(--abp-alice);
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: var(--abp-pacific);
+  opacity: 1;
+}
+
+/* brand nav-active treatment: 2px pacific underline */
+.md-tabs__link--active {
+  box-shadow: inset 0 -2px 0 var(--abp-pacific);
+}
+
+/* Search field: alice-blue-50 well instead of a translucent overlay */
+.md-search__form {
+  background-color: var(--abp-alice-50);
+  border-radius: var(--abp-radius);
+  box-shadow: none;
+}
+.md-search__form:hover {
+  background-color: var(--abp-alice);
+}
+.md-search__input { color: var(--abp-deep-blue); }
+.md-search__input::placeholder { color: var(--abp-deep-blue-60); }
+.md-search__icon { color: var(--abp-deep-blue-60); }
+.md-search__output {
+  border-radius: var(--abp-radius);
+  border: 1px solid var(--abp-alice);
+}
+
+/* ---- Links -------------------------------------------------------- */
+.md-typeset a {
+  color: var(--abp-pacific);
+  transition: color 0.15s ease;
+}
+.md-typeset a:hover {
+  color: var(--abp-orchid);
+}
+
+/* ---- Focus ring: 3px royal orchid, 2px offset ------------------- */
+a:focus-visible,
+button:focus-visible,
+.md-nav__link:focus-visible,
+.md-tabs__link:focus-visible,
+.md-search__input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--abp-orchid);
+  outline-offset: 2px;
+}
+
+/* ---- Left nav + table of contents ------------------------------ */
+.md-nav__link--active,
+.md-nav__link--active:focus,
+.md-nav__link--active:hover {
+  color: var(--abp-pacific);
+}
+.md-nav__link:hover {
+  color: var(--abp-pacific);
+}
+
+/* ---- Eyebrow utility ------------------------------------------- */
+.md-typeset .eyebrow {
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--abp-pacific);
+  margin: 0 0 1rem;
+}
+
+/* ---- Buttons ------------------------------------------------------ */
+.md-typeset .md-button {
+  font-weight: 600;
+  border-radius: var(--abp-radius);
+  border: 1px solid var(--abp-alice);
+  color: var(--abp-deep-blue);
+  background-color: var(--abp-white);
+  box-shadow: none;
+  transition: color 0.15s ease, background-color 0.15s ease,
+              border-color 0.15s ease, transform 0.15s ease;
+}
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  background-color: var(--abp-white);
+  border-color: var(--abp-pacific);
+  color: var(--abp-pacific);
+}
+.md-typeset .md-button--primary {
+  background-color: var(--abp-orchid);
+  border-color: var(--abp-orchid);
+  color: var(--abp-white);
+}
+.md-typeset .md-button--primary:hover,
+.md-typeset .md-button--primary:focus {
+  background-color: var(--abp-deep-blue);
+  border-color: var(--abp-deep-blue);
+  color: var(--abp-white);
+  transform: translateY(-1px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .md-button--primary:hover { transform: none; }
+}
+
+/* ---- Tables --------------------------------------------------- */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--abp-alice);
+  border-radius: var(--abp-radius);
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: none;
+  font-size: 0.8rem;
+}
+.md-typeset table:not([class]) th {
+  background-color: var(--abp-alice-50);
+  color: var(--abp-deep-blue);
+  font-weight: 600;
+  border-bottom: 1px solid var(--abp-alice);
+}
+.md-typeset table:not([class]) td {
+  border-top: 1px solid var(--abp-alice);
+}
+.md-typeset table:not([class]) tbody tr:first-child td {
+  border-top: none;
+}
+.md-typeset table:not([class]) th:first-child,
+.md-typeset table:not([class]) td:first-child {
+  width: 28%;
+  vertical-align: top;
+}
+.md-typeset table:not([class]) td:nth-child(2) {
+  vertical-align: top;
+}
+.md-typeset table:not([class]) th:last-child,
+.md-typeset table:not([class]) td:last-child {
+  width: 1%;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: top;
+}
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: var(--abp-alice-50);
+}
+
+/* ---- Code ---------------------------------------------------------- */
+.md-typeset pre > code,
+.md-typeset .highlight,
+.md-typeset .highlighttable {
+  border-radius: var(--abp-radius);
+}
+.md-typeset pre > code {
+  border: 1px solid var(--abp-alice);
+}
+.md-typeset code {
+  border-radius: 0.25rem;
+  background-color: var(--abp-alice-50);
+}
+
+/* ---- Admonitions: flat, 1px alice, alice-50 title bar ------------- */
+.md-typeset .admonition,
+.md-typeset details {
+  border: 1px solid var(--abp-alice);
+  border-radius: var(--abp-radius);
+  box-shadow: none;
+  background-color: var(--abp-white);
+  font-size: 0.75rem;
+}
+.md-typeset .admonition > .admonition-title,
+.md-typeset details > summary {
+  background-color: var(--abp-alice-50);
+  color: var(--abp-deep-blue);
+  font-weight: 600;
+  border: none;
+}
+.md-typeset .admonition > .admonition-title::before,
+.md-typeset details > summary::before {
+  background-color: var(--abp-deep-blue-80);
+}
+
+/* "Practice areas on this page" — the one orchid-accented callout,
+   in the design system's top-accented panel style */
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract {
+  border-top: 3px solid var(--abp-orchid);
+}
+.md-typeset .abstract > .admonition-title,
+.md-typeset .abstract > summary {
+  background-color: var(--abp-orchid-tint);
+}
+.md-typeset .abstract > .admonition-title::before,
+.md-typeset .abstract > summary::before {
+  background-color: var(--abp-orchid);
+}
+.md-typeset .admonition.abstract > .admonition-title + ol {
+  margin-bottom: 0.4rem;
+}
+
+/* ---- Source tags: pill, brand trio ----------------------------- */
+/* ISCB -> pacific, 4D-Bio -> orchid, ACTIVE -> deep blue, matching the
+   three-accent system used by the design system's labels and badges. */
 .md-typeset .tag {
   display: inline-block;
-  padding: 0.02em 0.4em;
-  border-radius: 0.5em;
+  padding: 0.02em 0.5em;
+  border-radius: 999px;
   font-size: 0.56rem;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -17,76 +324,24 @@
   white-space: nowrap;
   text-decoration: none;
 }
-
-.md-typeset a.tag {
-  cursor: pointer;
-}
-
+.md-typeset a.tag { cursor: pointer; }
 .md-typeset a.tag:hover,
-.md-typeset a.tag:focus {
-  filter: brightness(1.06);
-  text-decoration: none;
+.md-typeset a.tag:focus { text-decoration: underline; }
+
+.md-typeset .tag-iscb   { background: var(--abp-pacific-tint); color: var(--abp-pacific-dark); }
+.md-typeset .tag-4dbio  { background: var(--abp-orchid-tint);  color: var(--abp-orchid-dark); }
+.md-typeset .tag-active { background: var(--abp-alice-50);      color: var(--abp-deep-blue-80); }
+
+/* ---- Footer: flatten prev/next nav ---------------------------- */
+.md-footer,
+.md-footer__inner {
+  box-shadow: none;
+}
+.md-footer-meta__inner {
+  font-size: 0.85rem;
 }
 
-.md-typeset .tag-iscb   { background: #e3f2fd; color: #0b4a9c; }
-.md-typeset .tag-active { background: #fff3e0; color: #ba4a00; }
-.md-typeset .tag-4dbio  { background: #ede7f6; color: #4527a0; }
-
-[data-md-color-scheme="slate"] .md-typeset .tag-iscb   { background: #123a63; color: #cfe4ff; }
-[data-md-color-scheme="slate"] .md-typeset .tag-active { background: #5c3210; color: #ffe2c2; }
-[data-md-color-scheme="slate"] .md-typeset .tag-4dbio  { background: #382a63; color: #e0d6ff; }
-
-/* Practice-area tables -------------------------------------------------- */
-.md-typeset table:not([class]) th:first-child,
-.md-typeset table:not([class]) td:first-child {
-  width: 28%;
-  vertical-align: top;
-}
-
-.md-typeset table:not([class]) td:nth-child(2) {
-  vertical-align: top;
-}
-
-/* "Source" column: shrink to content, centred */
-.md-typeset table:not([class]) th:last-child,
-.md-typeset table:not([class]) td:last-child {
-  width: 1%;
-  white-space: nowrap;
-  text-align: center;
-  vertical-align: top;
-}
-
-/* "Practice areas on this page" box — recoloured to match the 4D-Bio tag --- */
-.md-typeset .admonition.abstract,
-.md-typeset details.abstract {
-  border-color: #4527a0;
-}
-
-.md-typeset .abstract > .admonition-title,
-.md-typeset .abstract > summary {
-  background-color: rgba(69, 39, 160, 0.1);
-}
-
-.md-typeset .abstract > .admonition-title::before,
-.md-typeset .abstract > summary::before {
-  background-color: #4527a0;
-}
-
-.md-typeset .admonition.abstract > .admonition-title + ol {
-  margin-bottom: 0.4rem;
-}
-
-[data-md-color-scheme="slate"] .md-typeset .admonition.abstract,
-[data-md-color-scheme="slate"] .md-typeset details.abstract {
-  border-color: #8f7ae0;
-}
-
-[data-md-color-scheme="slate"] .md-typeset .abstract > .admonition-title,
-[data-md-color-scheme="slate"] .md-typeset .abstract > summary {
-  background-color: rgba(143, 122, 224, 0.12);
-}
-
-[data-md-color-scheme="slate"] .md-typeset .abstract > .admonition-title::before,
-[data-md-color-scheme="slate"] .md-typeset .abstract > summary::before {
-  background-color: #8f7ae0;
+/* ---- Content spacing ---------------------------------------------- */
+.md-typeset hr {
+  border-bottom: 1px solid var(--abp-alice);
 }

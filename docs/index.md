@@ -3,9 +3,11 @@ hide:
   - toc
 ---
 
+<p class="eyebrow">Association of Bioinformatics Professionals</p>
+
 # 4D-Bio
 
-**A professional practice model for AI-augmented bioinformatics.**
+Using AI well is now part of practicing bioinformatics, and 4D-Bio is the shared map of that skill set.
 
 4D-Bio is a community-maintained map of the skills a bioinformatician needs to use
 generative AI responsibly. It organizes those skills around four capabilities from
@@ -14,17 +16,17 @@ generative AI responsibly. It organizes those skills around four capabilities fr
 one back to the established [ISCB Competency Framework](https://competency.ebi.ac.uk/framework/iscb/3.0)
 for bioinformatics.
 
-[Start with the Overview :material-arrow-right:](overview.md){ .md-button .md-button--primary }
-[Join the discussion :material-forum:](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions){ .md-button }
+[Read the overview](overview.md){ .md-button .md-button--primary }
+[Join the discussion](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions){ .md-button }
 
 ---
 
 ## The four capabilities
 
-| Capability | In one line | Example in bioinformatics |
+| Capability | Anthropic's definition | Example in bioinformatics |
 |---|---|---|
-| **[Delegation](delegation.md)** | Decide *whether, when, and how* to use AI for a task. | Choosing to let an agent scaffold a Snakemake pipeline, but keeping study design and tool selection in human hands. |
-| **[Description](description.md)** | Communicate goals, context, and assumptions so outputs are reproducible. | Writing a prompt that specifies the assay, reference genome, and expected output format &mdash; and versioning it alongside the code. |
+| **[Delegation](delegation.md)** | Setting goals and deciding whether, when, and how to engage with AI | Choosing to let an agent scaffold a Snakemake pipeline, but keeping study design and tool selection in human hands. |
+| **[Description](description.md)** | Effectively describing goals to prompt useful AI behaviors and outputs. | communicating goals, context, and biological assumptions to AI agents in the form of technical specifications. |
 | **[Discernment](discernment.md)** | Judge whether an AI output is biologically and statistically sound. | Checking a model's differential-expression call against known pathway biology and the underlying count distribution. |
 | **[Diligence](diligence.md)** | Take responsibility for what you ship with AI. | Documenting model versions and seeds, meeting FAIR and regulatory requirements, and being able to redo the analysis by hand. |
 
