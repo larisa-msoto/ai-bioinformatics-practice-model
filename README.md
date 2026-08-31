@@ -4,10 +4,9 @@
 
 **4D-Bio is a community-maintained map of the skills a bioinformatician needs to use generative AI responsibly.**
 
-It organizes those skills around the four capabilities of
+4D-Bio is a community-maintained map of the skills needed to practice AI-assissted bioinformatics responsibly and effectively. It organizes key bioinformatics skills, derived from the [ISCB Competency Framework v3.0](https://competency.ebi.ac.uk/framework/iscb/3.0) and selected publications, around four AI-fluency capabilities from
 [Anthropic's 4D framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com):
-**Delegation, Description, Discernment, and Diligence**. Each one links back to the
-established [ISCB Competency Framework v3.0](https://competency.ebi.ac.uk/framework/iscb/3.0).
+**Delegation, Description, Discernment, and Diligence**. 
 
 **Read the practice model:** <https://larisa-msoto.github.io/ai-bioinformatics-practice-model/>
 
@@ -26,13 +25,6 @@ This is an early public draft, and a call to the bioinformatics community to sha
 - **Fix a typo:** click the pencil icon on any page of the site.
 - **Propose changes to the model:** see the [contributing guide](docs/contributing.md).
 
-## Building the site locally
-
-```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-mkdocs serve
-```
 
 ## License
 
