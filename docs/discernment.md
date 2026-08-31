@@ -1,9 +1,6 @@
 # Discernment
 
-!!! note ""
-    According to [Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) Discernment means _"Accurately assessing the usefulness of AI outputs and behaviors."_.
-
-In Bioinformatics, discernment means using deep biological intuition to identify mistakes in AI-augmented bioinformatic analyses, and utilizing community standards to assess performance and confidence. It's also about calibrating one's belief in AI outputs against reference knowledge to ensure biological plausibility and statistical validity.
+**Discernment** is _"accurately assessing the usefulness of AI outputs and behaviors"_ ([Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com)). In bioinformatics, it means using deep biological intuition to identify mistakes in AI-augmented analyses, and using community standards to assess performance and confidence. It is also about calibrating one's belief in AI outputs against reference knowledge to ensure biological plausibility and statistical validity.
 
 !!! abstract "Practice areas on this page"
     1. [Evaluating the biological plausibility of AI outputs](#1-evaluating-the-biological-plausibility-of-ai-outputs)

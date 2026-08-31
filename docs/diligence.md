@@ -1,9 +1,6 @@
 # Diligence
 
-!!! note ""
-    According to [Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) Diligence means _"Taking responsibility for what we do with AI and how we use it."_.
-
-In Bioinformatics, diligence is assuming accountability and responsibility for the impact of agentic AI solutions. This is not only about adhering to international standards for ethical and safe AI use, but also about maintaining the cognitive abilities to remain critical of AI-generated outputs and complete tasks manually when AI agents fail.
+**Diligence** is _"taking responsibility for what we do with AI and how we use it"_ ([Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com)). In bioinformatics, it means assuming accountability for the impact of agentic AI solutions &mdash; not only adhering to international standards for ethical and safe AI use, but also maintaining the cognitive abilities to remain critical of AI-generated outputs and complete tasks manually when AI agents fail.
 
 !!! abstract "Practice areas on this page"
     1. [Ensuring pipeline governance and regulatory compliance](#1-ensuring-pipeline-governance-and-regulatory-compliance)

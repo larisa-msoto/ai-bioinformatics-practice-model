@@ -1,9 +1,6 @@
 # Delegation
 
-!!! note ""
-    According to [Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) Delegation means _"Setting goals and deciding whether, when, and how to engage with AI"_.
-
-In Bioinformatics, delegation requires a deep understanding of the biological context, breaking complex problems into small independent tasks, determining for which tasks it's appropriate to use generative AI, choosing the most appropriate AI-based or non-AI-based tool for each task, and knowing how to implement agentic workflows following best practices.
+**Delegation** is _"setting goals and deciding whether, when, and how to engage with AI"_ ([Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com)). In bioinformatics, this requires a deep understanding of the biological context, breaking complex problems into small independent tasks, determining for which tasks it's appropriate to use generative AI, choosing the most appropriate AI-based or non-AI-based tool for each task, and knowing how to implement agentic workflows following best practices.
 
 !!! abstract "Practice areas on this page"
     1. [Framing the biological problem and formulating the solution roadmap](#1-framing-the-biological-problem-and-formulating-the-solution-roadmap)
