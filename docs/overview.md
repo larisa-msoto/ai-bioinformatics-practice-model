@@ -6,10 +6,6 @@
 framework for working with generative AI. This page explains **how the model is
 built** and **how to read the four capability pages**.
 
-!!! note "Diagram placeholder"
-    A visual of the four capabilities and how the three source frameworks nest
-    will go here.
-
 ## How the model is built
 
 4D-Bio combines three existing frameworks:
