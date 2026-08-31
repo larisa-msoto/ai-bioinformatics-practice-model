@@ -320,9 +320,11 @@ button:focus-visible,
   margin-bottom: 0.4rem;
 }
 
-/* ---- Source tags: pill, brand trio ----------------------------- */
-/* ISCB -> pacific, 4D-Bio -> orchid, ACTIVE -> deep blue, matching the
-   three-accent system used by the design system's labels and badges. */
+/* ---- Source tags: pill ----------------------------------------- */
+/* Sanctioned exception to the five-colour rule: the three sources need to
+   be told apart at a glance, so the pills keep their own blue / amber /
+   violet trio (blue = ISCB, amber = ACTIVE, violet = 4D-Bio) rather than
+   the brand accents. Confined to these pills only. */
 .md-typeset .tag {
   display: inline-block;
   padding: 0.02em 0.5em;
@@ -340,9 +342,9 @@ button:focus-visible,
 .md-typeset a.tag:hover,
 .md-typeset a.tag:focus { text-decoration: underline; }
 
-.md-typeset .tag-iscb   { background: var(--abp-pacific-tint); color: var(--abp-pacific-dark); }
-.md-typeset .tag-4dbio  { background: var(--abp-orchid-tint);  color: var(--abp-orchid-dark); }
-.md-typeset .tag-active { background: var(--abp-alice-50);      color: var(--abp-deep-blue-80); }
+.md-typeset .tag-iscb   { background: #e3f2fd; color: #0b4a9c; }
+.md-typeset .tag-active { background: #fff3e0; color: #ba4a00; }
+.md-typeset .tag-4dbio  { background: #ede7f6; color: #4527a0; }
 
 /* ---- Footer: flatten prev/next nav ---------------------------- */
 .md-footer,
