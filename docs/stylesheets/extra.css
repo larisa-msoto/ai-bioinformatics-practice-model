@@ -172,6 +172,18 @@ button:focus-visible,
   color: var(--abp-pacific);
 }
 
+/* Table of contents (right sidebar): grey text, pacific blue on hover */
+.md-nav--secondary .md-nav__link {
+  color: var(--abp-deep-blue-60);
+}
+.md-nav--secondary .md-nav__link:hover,
+.md-nav--secondary .md-nav__link:focus,
+.md-nav--secondary .md-nav__link--active,
+.md-nav--secondary .md-nav__link--active:hover,
+.md-nav--secondary .md-nav__link--active:focus {
+  color: var(--abp-pacific);
+}
+
 /* ---- Eyebrow utility ------------------------------------------- */
 .md-typeset .eyebrow {
   font-weight: 600;
