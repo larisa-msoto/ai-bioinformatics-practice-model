@@ -355,6 +355,18 @@ button:focus-visible,
   font-size: 0.85rem;
 }
 
+/* Licence / attribution line in the footer meta band */
+.md-copyright {
+  line-height: 1.6;
+}
+.md-copyright a {
+  color: var(--abp-deep-blue);
+  text-decoration: underline;
+}
+.md-copyright a:hover {
+  color: var(--abp-pacific);
+}
+
 /* ---- Content spacing ---------------------------------------------- */
 .md-typeset hr {
   border-bottom: 1px solid var(--abp-alice);
