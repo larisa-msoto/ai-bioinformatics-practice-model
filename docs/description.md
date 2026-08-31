@@ -1,6 +1,6 @@
 # Description
 
-**Description** is _"effectively describing goals to prompt useful AI behaviors and outputs"_ ([Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com)). In bioinformatics, it requires communicating goals, context, and assumptions to AI agents in the form of instructions that drive the expected behaviors and make outputs reproducible and interpretable.
+**Description** is _"effectively describing goals to prompt useful AI behaviors and outputs"_ ([Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com)). In bioinformatics, it requires communicating goals, context, and biological assumptions to AI agents in the form of technical specifications that drive the expected behaviors and make outputs reproducible and interpretable.
 
 !!! abstract "Practice areas on this page"
     1. [Translating biological knowledge into precise AI instructions](#1-translating-biological-knowledge-into-precise-ai-instructions)

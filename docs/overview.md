@@ -56,4 +56,4 @@ The tag in the **Source** column shows where each competency comes from:
 ## Status
 
 4D-Bio is an early public draft (**v0.1**). Content, structure, and terminology are
-all still open for discussion. See [How to Contribute](contributing.md).
+all still open for discussion. See [How to contribute](contributing.md).
