@@ -163,25 +163,25 @@ button:focus-visible,
 }
 
 /* ---- Left navigation menu -------------------------------------- */
-/* Resting links deep blue; the current page in pacific blue + semibold
-   so it stands out from the rest of the list. */
+/* Resting links deep blue; hover and the current page in royal orchid,
+   with the current page also semibold so it stands out from the list. */
 .md-nav--primary .md-nav__link {
   color: var(--abp-deep-blue);
 }
 .md-nav--primary .md-nav__link:hover,
 .md-nav--primary .md-nav__link:focus {
-  color: var(--abp-pacific);
+  color: var(--abp-orchid);
 }
 .md-nav--primary .md-nav__item--active > .md-nav__link,
 .md-nav--primary .md-nav__link--active,
 .md-nav--primary .md-nav__item--active > .md-nav__link:focus,
 .md-nav--primary .md-nav__item--active > .md-nav__link:hover {
-  color: var(--abp-pacific);
+  color: var(--abp-orchid);
   font-weight: 600;
 }
 
 /* ---- Table of contents (right sidebar) ------------------------- */
-/* Grey links; pacific blue on hover and for the current section. */
+/* Grey links; royal orchid on hover and for the current section. */
 .md-nav--secondary .md-nav__link {
   color: var(--abp-deep-blue-60);
 }
@@ -190,7 +190,7 @@ button:focus-visible,
 .md-nav--secondary .md-nav__link--active,
 .md-nav--secondary .md-nav__link--active:hover,
 .md-nav--secondary .md-nav__link--active:focus {
-  color: var(--abp-pacific);
+  color: var(--abp-orchid);
 }
 .md-nav--secondary .md-nav__link--active {
   font-weight: 600;
