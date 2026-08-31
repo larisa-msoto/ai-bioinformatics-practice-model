@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 <p class="eyebrow">Association of Bioinformatics Professionals</p>
 
 # 4D-Bio
