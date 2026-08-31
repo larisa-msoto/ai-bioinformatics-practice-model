@@ -40,7 +40,7 @@ Using AI well is now part of practicing bioinformatics, and 4D-Bio helps the com
 
 See the **[How to contribute](contributing.md)** page for every way to help, from fixing a typo to proposing new additions. Use the pencil icon at the top-right of any page to propose changes.
 
- ## References 
+## References 
 
 This professional practice model is based on the following sources:
 
