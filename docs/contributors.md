@@ -2,7 +2,7 @@
 
 This project is made possible by the time and expertise of the following community members. Thank you!
 
-This project follows the [all-contributors](https://allcontributors.org) specification. Contributions of every kind are welcome, not only code. The icons above are defined in the [all-contributors emoji key](https://allcontributors.org/en/reference/emoji-key/).
+This project follows the [all-contributors](https://allcontributors.org) specification. Contributions of every kind are welcome, not only code. The icons below are defined in the [all-contributors emoji key](https://allcontributors.org/en/reference/emoji-key/).
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
