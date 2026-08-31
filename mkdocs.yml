@@ -1,40 +1,31 @@
 # -----------------------------------------------------------------------------
-# AI-Augmented Bioinformatics Practice Model
+# 4D-Bio: A Practice Model for AI-Augmented Bioinformatics
 # -----------------------------------------------------------------------------
-site_name: AI-Augmented Bioinformatics Practice Model
+site_name: 4D-Bio
+site_url: https://larisa-msoto.github.io/ai-bioinformatics-practice-model/
 repo_url: https://github.com/larisa-msoto/ai-bioinformatics-practice-model
 edit_uri: 'blob/main/docs/'
 docs_dir: docs/
-site_description: "A professional practice model for AI-Augmented Bioinformatics based on Anthropic's 4D Framework"
+site_description: "4D-Bio is a community-maintained practice model that maps the skills of a practicing bioinformatician onto Anthropic's 4D framework for AI fluency."
 site_author: Larisa M. Soto
 
 nav:
-  - Home: 
-    - About: index.md
-    - Community: 
-      - How to Contribute: contributing.md
-      - Contributors: contributors.md
-      - Code of Conduct: code_of_conduct.md
-    - Practice Model:
-      - Delegation: delegation.md
-      - Description: description.md
-      - Discernment: discernment.md
-      - Diligence: diligence.md  
-      - References: references.md
-  - Practice Model:
+  - Home: index.md
+  - The Model:
+      - Overview: overview.md
       - Delegation: delegation.md
       - Description: description.md
       - Discernment: discernment.md
       - Diligence: diligence.md
       - References: references.md
-  - Community:
+  - Contribute:
       - How to Contribute: contributing.md
       - Contributors: contributors.md
       - Code of Conduct: code_of_conduct.md
 
 validation:
   omitted_files: warn
-  absolute_links: warn  
+  absolute_links: warn
   unrecognized_links: warn
   anchors: warn  # New in MkDocs 1.6
   links:
@@ -52,7 +43,6 @@ theme:
     - navigation.sections
     - navigation.top
     - toc.follow
-    - toc.integrate
     - search.suggest
     - search.highlight
     - content.action.edit
@@ -81,7 +71,8 @@ theme:
 plugins:
   - search
   - git-revision-date-localized:
-      type: timeago
+      type: date
+      enable_creation_date: false
 
 markdown_extensions:
   - toc:
@@ -90,9 +81,11 @@ markdown_extensions:
       toc_depth: 3
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed
   - attr_list
   - md_in_html
-
-

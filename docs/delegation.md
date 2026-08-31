@@ -1,20 +1,11 @@
----
-hide:
-  - toc
----
-
 # Delegation
 
 !!! note ""
     According to [Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) Delegation means _"Setting goals and deciding whether, when, and how to engage with AI"_.
 
-In Bioinformatics, delegation requires a deep understanding of the biological context, breaking complex problems into small independent tasks, determining for which tasks it's appropriate to use generative AI, choosing the most appropriate AI-based or non-AI-based tool for each task, and knowing how to implement agentic workflows following best practices.  
+In Bioinformatics, delegation requires a deep understanding of the biological context, breaking complex problems into small independent tasks, determining for which tasks it's appropriate to use generative AI, choosing the most appropriate AI-based or non-AI-based tool for each task, and knowing how to implement agentic workflows following best practices.
 
-**Table of Contents**
-
-Description in Bioinformatics applies to the following professional practice areas: 
-
-[TOC]
+Delegation in Bioinformatics applies to the following professional practice areas:
 
 ---
 
@@ -23,7 +14,7 @@ Description in Bioinformatics applies to the following professional practice are
 * Hypothesis generation
     * Leverage domain expertise to formulate novel biological hypotheses and questions in research areas where existing data or AI training models are limited
 
-* Innovative problem sovling
+* Innovative problem solving
     * Devise alternative strategies or creative workarounds when standard computational approaches or AI models fail to solve a complex biological problem.
 
 * Workflow architecture selection
@@ -45,13 +36,13 @@ Description in Bioinformatics applies to the following professional practice are
 * Awareness and Task-AI Alignment (ACTIVE Framework)
     * Critically assessing the complexity of a task to determine if AI integration is appropriate or if it risks bypassing essential learning.
 
-* Data Science Domain Knowlegde (ISCB Competency Framework)
+* Data Science Domain Knowledge (ISCB Competency Framework)
     * [ISCB D3: Use data science methods suitable for the size and complexity of the data.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7940)
     * [ISCB F3: Make appropriate use of bioinformatics tools and resources.](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7942)
 
 ---
 
-## Orchestrating autonomous AI workflows to execute tasks ar scale
+## Orchestrating autonomous AI workflows to execute tasks at scale
 
 * Multi-agent architecture design
     * Architect end-to-end automated workflows that leverage chained AI agents to execute complex, multi-stage bioinformatics analyses.

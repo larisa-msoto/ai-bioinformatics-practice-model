@@ -1,18 +1,44 @@
-## 4D-Bio: A Practice Model for AI-Augmented Bioinformatics 
+# 4D-Bio: A Practice Model for AI-Augmented Bioinformatics
 
-To view the practice model go [here](https://larisa-msoto.github.io/ai-bioinformatics-practice-model/).
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-To contrubute to the discussion go to our [Discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions) page. There you can find our community forum and join the conversation on topics like:
+**4D-Bio is a community-maintained map of the skills a bioinformatician needs to use generative AI responsibly.**
 
-  * 📖 AI Errors Archive:  Document examples of cases where AI failed and how you caught the mistake.
-  * 🔮 Future of Bioinformatics: Share your view on what you want and don't want the future of AI-augmented bioinformatics to be like.
-  * 🧬 Model Feedback: Share examples of how the professional practice model helped you build or improve something, like a new workshop or design a course curriculum (use the label `success-story`). You can also use this space to tell us how we can improve the practice model (use the label `enhancement`).
+It organizes those skills around the four capabilities of
+[Anthropic's 4D framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com)
+&mdash; **Delegation, Description, Discernment, and Diligence** &mdash; and links each one
+back to the established [ISCB Competency Framework v3.0](https://competency.ebi.ac.uk/framework/iscb/3.0).
 
----
+📖 **Read the practice model:** <https://larisa-msoto.github.io/ai-bioinformatics-practice-model/>
 
-This resource is based on the [AI Fluency Framework](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) developed by Prof. Rick Dakan, Prof. Joseph Feller, and Anthropic, used under CC BY-NC-SA 4.0. To learn more about the framework and it's associated educational resources see Anthropic's [AI Fluency: Framework & Foundations site](https://www.anthropic.com/learn/claude-for-you).
+## Who it's for
 
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+- **Practicing bioinformaticians** &mdash; self-assess where your AI skills are strong or thin.
+- **Educators and curriculum designers** &mdash; decide what to teach and how to train the next generation.
+- **Team leads and hiring managers** &mdash; write job descriptions and AI-use guidelines around a shared vocabulary.
+
+## Contributing
+
+This is an early public draft, and a call to the bioinformatics community to shape it.
+
+- **Discuss:** join the [community discussions](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions) &mdash;
+  the AI Errors Archive, the Future of Bioinformatics, and Model Feedback.
+- **Fix a typo:** click the pencil icon on any page of the site.
+- **Propose changes to the model:** see the [Contributing Guide](docs/contributing.md).
+
+## Building the site locally
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+mkdocs serve
+```
+
+## License
+
+This resource is based on the [AI Fluency Framework](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com)
+developed by Prof. Rick Dakan, Prof. Joseph Feller, and Anthropic, used under CC BY-NC-SA 4.0.
+To learn more, see Anthropic's [AI Fluency: Framework & Foundations](https://www.anthropic.com/learn/claude-for-you) site.
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].

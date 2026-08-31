@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # Discernment
 
 !!! note ""
@@ -10,11 +5,7 @@ hide:
 
 In Bioinformatics, discernment means using deep biological intuition to identify mistakes in AI-augmented bioinformatic analyses, and utilizing community standards to assess performance and confidence. It's also about calibrating one's belief in AI outputs against reference knowledge to ensure biological plausibility and statistical validity.
 
-**Table of Contents**
-
-Discernment in Bioinformatics applies to the following professional practice areas: 
-
-[TOC]
+Discernment in Bioinformatics applies to the following professional practice areas:
 
 ---
 

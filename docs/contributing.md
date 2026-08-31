@@ -8,7 +8,7 @@ We love contributions! Whether you have a small correction or a massive new idea
 
 ## How to contribute to the discussions 
 
-The Discussions [Discussions page](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions) has two sections: the community forum, and the general purpose section. The primary  goal of the community forum is to become a shared knowledgebase to increase the impact of informal conversations and individual actions. You'd be suprised of how much you can help others simply by sharing your experience!
+The [Discussions page](https://github.com/larisa-msoto/ai-bioinformatics-practice-model/discussions) has two sections: the community forum and the general-purpose section. The primary goal of the community forum is to become a shared knowledge base that increases the impact of informal conversations and individual actions. You'd be surprised how much you can help others simply by sharing your experience!
 
   * 📖 **AI Errors Archive**: Document examples of cases where AI failed and how you caught the mistake.
   * 🔮 **Future of Bioinformatics**: Share your view on what you want and don't want the future of AI-augmented bioinformatics to be like.

@@ -1,20 +1,11 @@
----
-hide:
-  - toc
----
-
 # Description
 
 !!! note ""
     According to [Anthropic's 4D Framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com) Description means _"Effectively describing goals to prompt useful AI behaviors and outputs."_.
 
-In Bioinformatics, description requires effectively communicating goals, context, and assumptions to AI agents in the form of instructions to drive the expected behaviors and make outputs reproducible and interpretable. 
+In Bioinformatics, description requires effectively communicating goals, context, and assumptions to AI agents in the form of instructions to drive the expected behaviors and make outputs reproducible and interpretable.
 
-**Table of Contents**
-
-Description in Bioinformatics applies to the following professional practice areas: 
-
-[TOC]
+Description in Bioinformatics applies to the following professional practice areas:
 
 ---
 

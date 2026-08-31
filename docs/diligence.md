@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # Diligence
 
 !!! note ""
@@ -10,11 +5,9 @@ hide:
 
 In Bioinformatics, diligence is assuming accountability and responsibility for the impact of agentic AI solutions. This is not only about adhering to international standards for ethical and safe AI use, but also about maintaining the cognitive abilities to remain critical of AI-generated outputs and complete tasks manually when AI agents fail.
 
-**Table of Contents**
+Diligence in Bioinformatics applies to the following professional practice areas:
 
-Diligence in Bioinformatics applies to the following professional practice areas: 
-
-[TOC]
+---
 
 ## Ensuring pipeline governance and regulatory compliance
 
@@ -27,6 +20,8 @@ Diligence in Bioinformatics applies to the following professional practice areas
 * Ethical evaluation
     * Identifying algorithmic bias and ensuring that AI-driven decisions are calibrated, safe, and legally compliant.
     * Formulate institutional/team risk guardrails to prevent algorithmic discrimination, dual-use biological research hazards, or intellectual property infringements.
+
+---
 
 ## Securing digital asset longevity and sustainability
 
@@ -42,7 +37,7 @@ Diligence in Bioinformatics applies to the following professional practice areas
 ## Countering mental dependency while preserving technical mastery
 
 * Iterative skill development (ACTIVE Framework)
-    * Countering "cognitive offloading"—the habit of delegating reasoning to tools—by intentionally practicing the "cognitive musculature" of manual coding and statistical reasoning .
+    * Countering "cognitive offloading"—the habit of delegating reasoning to tools—by intentionally practicing the "cognitive musculature" of manual coding and statistical reasoning.
 
 * Professional Conduct (ISCB Competency Framework)
     * [ISCB M3: Engage in continuing professional development](https://competency.ebi.ac.uk/framework/iscb/3.0/competency/details/7949)
@@ -60,7 +55,7 @@ Diligence in Bioinformatics applies to the following professional practice areas
 
 ---
 
-# Guiding institutional strategy and cross-sector diplomacy
+## Guiding institutional strategy and cross-sector diplomacy
 
 * Visionary stewardship
     * Design long-term technical roadmaps, governance models, and sustainability plans to secure the permanent operational longevity of bioinformatics initiatives.
