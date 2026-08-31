@@ -285,22 +285,22 @@ button:focus-visible,
   background-color: var(--abp-alice-50);
 }
 
-/* Two-column tables: narrow label column, wide description column. */
+/* Default: give the first column a bit less room than an even split so the
+   main text column gets the space it needs. */
 .md-typeset table:not([class]) th:first-child,
 .md-typeset table:not([class]) td:first-child {
   width: 30%;
 }
 
-/* Three-column tables (Category | Competency | Source): give the outer
-   columns fixed room and let the middle text column take the rest.
-   `:nth-last-child(3)` / `:nth-child(3):last-child` match only rows that
-   have exactly three cells, so two-column tables are untouched. */
-.md-typeset table:not([class]) th:first-child:nth-last-child(3),
-.md-typeset table:not([class]) td:first-child:nth-last-child(3) {
+/* Source-column tables (Category | Competency | Source pill): narrow the
+   outer columns and let the middle text column take the rest. Scoped with
+   :has(.tag) so ordinary three-column tables keep evenly split columns. */
+.md-typeset table:not([class]):has(.tag) th:first-child,
+.md-typeset table:not([class]):has(.tag) td:first-child {
   width: 24%;
 }
-.md-typeset table:not([class]) th:nth-child(3):last-child,
-.md-typeset table:not([class]) td:nth-child(3):last-child {
+.md-typeset table:not([class]):has(.tag) th:last-child,
+.md-typeset table:not([class]):has(.tag) td:last-child {
   width: 5.5rem;
 }
 
