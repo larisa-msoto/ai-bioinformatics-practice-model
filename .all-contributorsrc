@@ -22,7 +22,10 @@
         "content",
         "ideas",
         "doc",
-        "maintenance"
+        "maintenance",
+        "projectManagement",
+        "infra",
+        "design"
       ]
     }
   ]
