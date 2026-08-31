@@ -27,19 +27,18 @@ Each of the four pages &mdash; [Delegation](delegation.md), [Description](descri
 [Discernment](discernment.md), [Diligence](diligence.md) &mdash; is organized the same way:
 
 - A short **definition** of the capability, in general terms and then for bioinformatics.
-- An **"On this page"** strip listing the capability's numbered **practice areas** &mdash;
-  the professional situations where it shows up in real work.
+- A **"Practice areas on this page"** box listing the capability's numbered **practice
+  areas** &mdash; the professional situations where it shows up in real work.
 - One **table per practice area**. Each row is a **competency**, grouped by **category**
-  in the first column. Where a category maps to an existing framework, the competency
-  links straight to that framework's entry.
+  in the first column, with a **Source** tag in the last column.
 
-### Category tags
+### Source tags
 
-The tag beside each category shows where its competencies come from:
+The tag in the **Source** column shows where each competency comes from:
 
 | Tag | Meaning |
 |---|---|
-| <span class="tag tag-iscb">ISCB</span> | Drawn from the [ISCB Competency Framework v3.0](https://competency.ebi.ac.uk/framework/iscb/3.0). The competency links to its ISCB entry. |
+| <span class="tag tag-iscb">ISCB</span> | Drawn from the [ISCB Competency Framework v3.0](https://competency.ebi.ac.uk/framework/iscb/3.0). The tag links to the competency's ISCB entry. |
 | <span class="tag tag-active">ACTIVE</span> | Drawn from the ACTIVE framework for AI pedagogy. |
 | <span class="tag tag-4dbio">4D-Bio</span> | Original to this practice model &mdash; not yet catalogued in an external framework. |
 

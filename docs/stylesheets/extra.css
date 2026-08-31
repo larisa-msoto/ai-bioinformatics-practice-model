@@ -2,21 +2,30 @@
    4D-Bio custom styles
    --------------------------------------------------------------------------- */
 
-/* Category origin tags -----------------------------------------------------
-   Usage in Markdown (needs attr_list):  [ISCB]{ .tag .tag-iscb }
-*/
+/* Category origin tags ---------------------------------------------------- */
+/* Rendered in the table's "Source" column, as <span> or <a> (linked). */
 .md-typeset .tag {
   display: inline-block;
-  padding: 0.05em 0.55em;
-  margin-left: 0.4em;
-  border-radius: 1em;
-  font-size: 0.62rem;
+  padding: 0.02em 0.4em;
+  border-radius: 0.5em;
+  font-size: 0.56rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  vertical-align: 0.12em;
+  line-height: 1.5;
+  vertical-align: 0.1em;
   white-space: nowrap;
-  line-height: 1.7;
+  text-decoration: none;
+}
+
+.md-typeset a.tag {
+  cursor: pointer;
+}
+
+.md-typeset a.tag:hover,
+.md-typeset a.tag:focus {
+  filter: brightness(1.06);
+  text-decoration: none;
 }
 
 .md-typeset .tag-iscb   { background: #e3f2fd; color: #0b4a9c; }
@@ -27,20 +36,57 @@
 [data-md-color-scheme="slate"] .md-typeset .tag-active { background: #5c3210; color: #ffe2c2; }
 [data-md-color-scheme="slate"] .md-typeset .tag-4dbio  { background: #382a63; color: #e0d6ff; }
 
-/* Practice-area tables ---------------------------------------------------- */
+/* Practice-area tables -------------------------------------------------- */
 .md-typeset table:not([class]) th:first-child,
 .md-typeset table:not([class]) td:first-child {
-  width: 32%;
+  width: 28%;
   vertical-align: top;
 }
 
+.md-typeset table:not([class]) td:nth-child(2) {
+  vertical-align: top;
+}
+
+/* "Source" column: shrink to content, centred */
+.md-typeset table:not([class]) th:last-child,
 .md-typeset table:not([class]) td:last-child {
+  width: 1%;
+  white-space: nowrap;
+  text-align: center;
   vertical-align: top;
 }
 
-/* "On this page" contents strip ---------------------------------------------
-   A compact ordered list inside an `abstract` admonition.
-*/
+/* "Practice areas on this page" box — recoloured to match the 4D-Bio tag --- */
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract {
+  border-color: #4527a0;
+}
+
+.md-typeset .abstract > .admonition-title,
+.md-typeset .abstract > summary {
+  background-color: rgba(69, 39, 160, 0.1);
+}
+
+.md-typeset .abstract > .admonition-title::before,
+.md-typeset .abstract > summary::before {
+  background-color: #4527a0;
+}
+
 .md-typeset .admonition.abstract > .admonition-title + ol {
   margin-bottom: 0.4rem;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.abstract,
+[data-md-color-scheme="slate"] .md-typeset details.abstract {
+  border-color: #8f7ae0;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .abstract > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .abstract > summary {
+  background-color: rgba(143, 122, 224, 0.12);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .abstract > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset .abstract > summary::before {
+  background-color: #8f7ae0;
 }
