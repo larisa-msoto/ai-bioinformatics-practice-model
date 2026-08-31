@@ -162,17 +162,26 @@ button:focus-visible,
   outline-offset: 2px;
 }
 
-/* ---- Left nav + table of contents ------------------------------ */
-.md-nav__link--active,
-.md-nav__link--active:focus,
-.md-nav__link--active:hover {
+/* ---- Left navigation menu -------------------------------------- */
+/* Resting links deep blue; the current page in pacific blue + semibold
+   so it stands out from the rest of the list. */
+.md-nav--primary .md-nav__link {
+  color: var(--abp-deep-blue);
+}
+.md-nav--primary .md-nav__link:hover,
+.md-nav--primary .md-nav__link:focus {
   color: var(--abp-pacific);
 }
-.md-nav__link:hover {
+.md-nav--primary .md-nav__item--active > .md-nav__link,
+.md-nav--primary .md-nav__link--active,
+.md-nav--primary .md-nav__item--active > .md-nav__link:focus,
+.md-nav--primary .md-nav__item--active > .md-nav__link:hover {
   color: var(--abp-pacific);
+  font-weight: 600;
 }
 
-/* Table of contents (right sidebar): grey text, pacific blue on hover */
+/* ---- Table of contents (right sidebar) ------------------------- */
+/* Grey links; pacific blue on hover and for the current section. */
 .md-nav--secondary .md-nav__link {
   color: var(--abp-deep-blue-60);
 }
@@ -182,6 +191,9 @@ button:focus-visible,
 .md-nav--secondary .md-nav__link--active:hover,
 .md-nav--secondary .md-nav__link--active:focus {
   color: var(--abp-pacific);
+}
+.md-nav--secondary .md-nav__link--active {
+  font-weight: 600;
 }
 
 /* ---- Eyebrow utility ------------------------------------------- */
