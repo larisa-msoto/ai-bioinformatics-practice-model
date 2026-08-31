@@ -48,9 +48,8 @@ theme:
     text: Inter
     code: Roboto Mono
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
+    # No navigation.tabs / navigation.sections: the nav is a single
+    # collapsible tree in the left sidebar, not a horizontal bar.
     - navigation.top
     - toc.follow
     - search.suggest

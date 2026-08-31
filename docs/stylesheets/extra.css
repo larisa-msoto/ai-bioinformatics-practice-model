@@ -196,6 +196,21 @@ button:focus-visible,
   font-weight: 600;
 }
 
+/* Only the table of contents stays pinned. On desktop the left navigation
+   scrolls away with the page instead of sticking; on narrower screens it is
+   already a slide-in drawer, so leave that untouched. */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    position: static;
+    height: auto;
+  }
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    position: static;
+    height: auto;
+    overflow: visible;
+  }
+}
+
 /* ---- Eyebrow utility ------------------------------------------- */
 .md-typeset .eyebrow {
   font-weight: 600;
