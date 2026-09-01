@@ -1,0 +1,431 @@
+/* ===========================================================================
+   4D-Bio — Association of Bioinformatics Professionals house style
+   ---------------------------------------------------------------------------
+   Applies the BioinfoPro design system to MkDocs Material.
+
+   Non-negotiables carried over from the design system:
+     - Five brand colours only (+ listed tints for text hierarchy / quiet fills)
+     - No shadows, gradients, photography, patterns, textures, illustration
+     - One radius (0.5rem; pill for tags), one border (1px alice blue),
+       one transition (0.15s ease)
+     - Sentence case everywhere except the uppercase eyebrow label
+     - Space Grotesk for display, Inter for everything else
+     - Light only — the brand defines no dark mode
+   Docs-platform deviations are noted inline.
+   =========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap");
+
+:root {
+  /* --- brand colours (the only five) --- */
+  --abp-deep-blue: #0b1f35;
+  --abp-pacific:   #25aec6;
+  --abp-orchid:    #9525aa;
+  --abp-alice:     #d9e2ec;
+  --abp-white:     #ffffff;
+
+  /* --- derived tints (text hierarchy + quiet fills only) --- */
+  --abp-deep-blue-80: #3b4c5d;
+  --abp-deep-blue-60: #6c7986;
+  --abp-alice-50:     #ecf1f6;
+  --abp-pacific-dark: #1b8b9e;
+  --abp-pacific-tint: #e3f5f8;
+  --abp-orchid-dark:  #761c87;
+  --abp-orchid-tint:  #f4e4f7;
+
+  --abp-display: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --abp-radius: 0.5rem;
+
+  /* --- map onto Material's tokens --- */
+  --md-default-fg-color:           var(--abp-deep-blue);
+  --md-default-fg-color--light:    var(--abp-deep-blue-80);
+  --md-default-fg-color--lighter:  var(--abp-deep-blue-60);
+  --md-default-fg-color--lightest: var(--abp-alice-50);
+  --md-default-bg-color:           var(--abp-white);
+
+  /* header/nav chrome: white band, deep-blue text */
+  --md-primary-fg-color:        var(--abp-white);
+  --md-primary-fg-color--light: var(--abp-white);
+  --md-primary-fg-color--dark:  var(--abp-white);
+  --md-primary-bg-color:        var(--abp-deep-blue);
+  --md-primary-bg-color--light: var(--abp-deep-blue-80);
+
+  /* interactive: royal orchid */
+  --md-accent-fg-color:             var(--abp-orchid);
+  --md-accent-fg-color--transparent: rgba(149, 37, 170, 0.1);
+  --md-accent-bg-color:             var(--abp-white);
+
+  --md-typeset-a-color: var(--abp-pacific);
+
+  --md-code-bg-color: var(--abp-alice-50);
+  --md-code-fg-color: var(--abp-deep-blue);
+
+  /* footer: alice band */
+  --md-footer-bg-color:        var(--abp-alice);
+  --md-footer-bg-color--dark:  var(--abp-alice);
+  --md-footer-fg-color:        var(--abp-deep-blue);
+  --md-footer-fg-color--light: var(--abp-deep-blue-80);
+  --md-footer-fg-color--lighter: var(--abp-deep-blue-60);
+
+  /* flat — separation is a 1px border, never a shadow */
+  --md-shadow-z1: none;
+  --md-shadow-z2: none;
+  --md-shadow-z3: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: 0s !important; }
+}
+
+/* ---- Display type ---------------------------------------------------- */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6,
+.md-header__title,
+.md-nav__title {
+  font-family: var(--abp-display);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--abp-deep-blue);
+}
+
+.md-typeset h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ---- Header / tabs: white, deep-blue text, 1px alice rule, no shadow -- */
+.md-header,
+.md-header--shadow {
+  box-shadow: none;
+  border-bottom: 1px solid var(--abp-alice);
+}
+
+.md-tabs {
+  border-bottom: 1px solid var(--abp-alice);
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: var(--abp-pacific);
+  opacity: 1;
+}
+
+/* brand nav-active treatment: 2px pacific underline */
+.md-tabs__link--active {
+  box-shadow: inset 0 -2px 0 var(--abp-pacific);
+}
+
+/* Search field: alice-blue-50 well instead of a translucent overlay */
+.md-search__form {
+  background-color: var(--abp-alice-50);
+  border-radius: var(--abp-radius);
+  box-shadow: none;
+}
+.md-search__form:hover {
+  background-color: var(--abp-alice);
+}
+.md-search__input { color: var(--abp-deep-blue); }
+.md-search__input::placeholder { color: var(--abp-deep-blue-60); }
+.md-search__icon { color: var(--abp-deep-blue-60); }
+.md-search__output {
+  border-radius: var(--abp-radius);
+  border: 1px solid var(--abp-alice);
+}
+
+/* ---- Links -------------------------------------------------------- */
+.md-typeset a {
+  color: var(--abp-pacific);
+  transition: color 0.15s ease;
+}
+.md-typeset a:hover {
+  color: var(--abp-orchid);
+}
+
+/* ---- Focus ring: 3px royal orchid, 2px offset ------------------- */
+a:focus-visible,
+button:focus-visible,
+.md-nav__link:focus-visible,
+.md-tabs__link:focus-visible,
+.md-search__input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--abp-orchid);
+  outline-offset: 2px;
+}
+
+/* ---- Left navigation menu -------------------------------------- */
+/* Resting links deep blue; hover and the current page in royal orchid,
+   with the current page also semibold so it stands out from the list. */
+.md-nav--primary .md-nav__link {
+  color: var(--abp-deep-blue);
+}
+.md-nav--primary .md-nav__link:hover,
+.md-nav--primary .md-nav__link:focus {
+  color: var(--abp-orchid);
+}
+.md-nav--primary .md-nav__item--active > .md-nav__link,
+.md-nav--primary .md-nav__link--active,
+.md-nav--primary .md-nav__item--active > .md-nav__link:focus,
+.md-nav--primary .md-nav__item--active > .md-nav__link:hover {
+  color: var(--abp-orchid);
+  font-weight: 600;
+}
+
+/* ---- Table of contents (right sidebar) ------------------------- */
+/* Grey links; royal orchid on hover and for the current section. */
+.md-nav--secondary .md-nav__link {
+  color: var(--abp-deep-blue-60);
+}
+.md-nav--secondary .md-nav__link:hover,
+.md-nav--secondary .md-nav__link:focus,
+.md-nav--secondary .md-nav__link--active,
+.md-nav--secondary .md-nav__link--active:hover,
+.md-nav--secondary .md-nav__link--active:focus {
+  color: var(--abp-orchid);
+}
+.md-nav--secondary .md-nav__link--active {
+  font-weight: 600;
+}
+
+/* Only the table of contents stays pinned. On desktop the left navigation
+   scrolls away with the page instead of sticking; on narrower screens it is
+   already a slide-in drawer, so leave that untouched. */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    position: static;
+    height: auto;
+  }
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    position: static;
+    height: auto;
+    overflow: visible;
+  }
+}
+
+/* ---- Eyebrow utility ------------------------------------------- */
+.md-typeset .eyebrow {
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--abp-pacific);
+  margin: 0 0 1rem;
+}
+
+/* ---- Buttons ------------------------------------------------------ */
+.md-typeset .md-button {
+  font-weight: 600;
+  border-radius: var(--abp-radius);
+  border: 1px solid var(--abp-alice);
+  color: var(--abp-deep-blue);
+  background-color: var(--abp-white);
+  box-shadow: none;
+  transition: color 0.15s ease, background-color 0.15s ease,
+              border-color 0.15s ease, transform 0.15s ease;
+}
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  background-color: var(--abp-white);
+  border-color: var(--abp-pacific);
+  color: var(--abp-pacific);
+}
+.md-typeset .md-button--primary {
+  background-color: var(--abp-orchid);
+  border-color: var(--abp-orchid);
+  color: var(--abp-white);
+}
+.md-typeset .md-button--primary:hover,
+.md-typeset .md-button--primary:focus {
+  background-color: var(--abp-deep-blue);
+  border-color: var(--abp-deep-blue);
+  color: var(--abp-white);
+  transform: translateY(-1px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .md-button--primary:hover { transform: none; }
+}
+
+/* ---- Tables --------------------------------------------------- */
+/* Fit-to-page, wrapping tables: the table always spans the content width,
+   `table-layout: fixed` makes columns honour the widths set below instead
+   of stretching to fit their text, and long cell text wraps onto multiple
+   lines. No sideways scrolling. */
+.md-typeset .md-typeset__table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;   /* safety net only; the table below fits on its own */
+}
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border: 1px solid var(--abp-alice);
+  border-radius: var(--abp-radius);
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: none;
+  font-size: 0.8rem;
+}
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
+}
+.md-typeset table:not([class]) th {
+  background-color: var(--abp-alice-50);
+  color: var(--abp-deep-blue);
+  font-weight: 600;
+  border-bottom: 1px solid var(--abp-alice);
+}
+.md-typeset table:not([class]) td {
+  border-top: 1px solid var(--abp-alice);
+}
+.md-typeset table:not([class]) tbody tr:first-child td {
+  border-top: none;
+}
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: var(--abp-alice-50);
+}
+
+/* Default: give the first column a bit less room than an even split so the
+   main text column gets the space it needs. */
+.md-typeset table:not([class]) th:first-child,
+.md-typeset table:not([class]) td:first-child {
+  width: 30%;
+}
+
+/* Source-column tables (Category | Competency | Source pill): narrow the
+   outer columns and let the middle text column take the rest. Scoped with
+   :has(.tag) so ordinary three-column tables keep evenly split columns. */
+.md-typeset table:not([class]):has(.tag) th:first-child,
+.md-typeset table:not([class]):has(.tag) td:first-child {
+  width: 24%;
+}
+.md-typeset table:not([class]):has(.tag) th:last-child,
+.md-typeset table:not([class]):has(.tag) td:last-child {
+  width: 5.5rem;
+}
+
+/* Keep the source pill itself on one line inside its wrapping cell. */
+.md-typeset table:not([class]) .tag {
+  white-space: nowrap;
+}
+
+/* ---- Code ---------------------------------------------------------- */
+.md-typeset pre > code,
+.md-typeset .highlight,
+.md-typeset .highlighttable {
+  border-radius: var(--abp-radius);
+}
+.md-typeset pre > code {
+  border: 1px solid var(--abp-alice);
+}
+.md-typeset code {
+  border-radius: 0.25rem;
+  background-color: var(--abp-alice-50);
+}
+
+/* ---- Admonitions: flat, 1px alice, alice-50 title bar ------------- */
+.md-typeset .admonition,
+.md-typeset details {
+  border: 1px solid var(--abp-alice);
+  border-radius: var(--abp-radius);
+  box-shadow: none;
+  background-color: var(--abp-white);
+  font-size: 0.75rem;
+}
+.md-typeset .admonition > .admonition-title,
+.md-typeset details > summary {
+  background-color: var(--abp-alice-50);
+  color: var(--abp-deep-blue);
+  font-weight: 600;
+  border: none;
+}
+.md-typeset .admonition > .admonition-title::before,
+.md-typeset details > summary::before {
+  background-color: var(--abp-deep-blue-80);
+}
+
+/* "Practice areas on this page" — the one orchid-accented callout,
+   in the design system's top-accented panel style */
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract {
+  border: 1px solid var(--abp-orchid);
+  border-top-width: 3px;
+}
+.md-typeset .abstract > .admonition-title,
+.md-typeset .abstract > summary {
+  background-color: var(--abp-orchid-tint);
+}
+.md-typeset .abstract > .admonition-title::before,
+.md-typeset .abstract > summary::before {
+  background-color: var(--abp-orchid);
+}
+.md-typeset .admonition.abstract > .admonition-title + ol {
+  margin-bottom: 0.4rem;
+}
+
+/* ---- Source tags: pill ----------------------------------------- */
+/* Sanctioned exception to the five-colour rule: the three sources need to
+   be told apart at a glance, so the pills keep their own blue / amber /
+   violet trio (blue = ISCB, amber = ACTIVE, violet = 4D-Bio) rather than
+   the brand accents. Confined to these pills only. */
+.md-typeset .tag {
+  display: inline-block;
+  padding: 0.02em 0.5em;
+  border-radius: 999px;
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  vertical-align: 0.1em;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.md-typeset a.tag { cursor: pointer; }
+.md-typeset a.tag:hover,
+.md-typeset a.tag:focus { text-decoration: underline; }
+
+.md-typeset .tag-iscb   { background: #e3f2fd; color: #0b4a9c; }
+.md-typeset .tag-active { background: #fff3e0; color: #ba4a00; }
+.md-typeset .tag-4dbio  { background: #ede7f6; color: #4527a0; }
+
+/* ---- Footer: flatten prev/next nav ---------------------------- */
+.md-footer,
+.md-footer__inner {
+  box-shadow: none;
+}
+.md-footer-meta__inner {
+  font-size: 0.85rem;
+}
+
+/* Licence / attribution line in the footer meta band */
+.md-copyright {
+  line-height: 1.6;
+}
+.md-copyright a {
+  color: var(--abp-deep-blue);
+  text-decoration: underline;
+}
+.md-copyright a:hover {
+  color: var(--abp-pacific);
+}
+
+/* ---- Content spacing ---------------------------------------------- */
+.md-typeset hr {
+  border-bottom: 1px solid var(--abp-alice);
+}
