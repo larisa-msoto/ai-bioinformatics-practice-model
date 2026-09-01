@@ -9,7 +9,6 @@ Using AI well is now part of practicing bioinformatics, and 4D-Bio helps the com
 **Delegation, Description, Discernment, and Diligence**.  
 
 [Read the map](overview.md){ .md-button .md-button--primary }
-[Contribute](contributing.md){ .md-button .md-button--primary }
 
 ---
 
