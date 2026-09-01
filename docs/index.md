@@ -2,8 +2,6 @@
 
 # 4D-Bio
 
-Using AI well is now part of practicing bioinformatics, and 4D-Bio helps the commuinty do it consistenly.
-
 4D-Bio is a community-maintained map of the skills needed to practice AI-assissted bioinformatics responsibly and effectively. It organizes key bioinformatics skills, derived from the [ISCB Competency Framework v3.0](https://competency.ebi.ac.uk/framework/iscb/3.0) and selected publications, around four AI-fluency capabilities from
 [Anthropic's 4D framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com):
 **Delegation, Description, Discernment, and Diligence**.  
