@@ -14,7 +14,7 @@ built** and **how to read the four capability pages**.
 |---|---|
 | **[Anthropic's 4D framework for AI fluency](https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf?ref=hackshackers.com)** | The top-level structure: four capabilities (Delegation, Description, Discernment, Diligence) that together describe fluent, responsible AI use. |
 | **[ISCB Competency Framework v3.0](https://competency.ebi.ac.uk/framework/iscb/3.0)** | The established, profession-wide bioinformatics competencies. 4D-Bio links each practice area to the specific ISCB competencies it draws on, so nothing is invented from scratch. |
-| **ACTIVE Framework** | AI-specific pedagogy: guidance on task-AI alignment, verification confidence, and countering cognitive offloading. Referenced where it sharpens a skill. |
+| **[ACTIVE Framework](https://osf.io/preprints/edarxiv/vhwbn_v1)** | AI-specific pedagogy: guidance on task-AI alignment, verification confidence, and countering cognitive offloading. |
 
 The 4D framework gives the shape, ISCB grounds the model in the wider profession,
 and ACTIVE adds the teaching-and-learning perspective for AI.
